@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "version": "1.1",
+    "version": "1.2",
     "updated": "2026-03",
     "note": "CircuitMaster ekipman veritabanı. Yeni seri veya varyant eklemek için ilgili bloğu düzenleyin.",
     "coilVoltage": "230V AC (sabit)"
@@ -1283,5 +1283,381 @@
     "315": 565,
     "400": 720,
     "500": 890
+  },
+  "accessories": {
+    "_note": "Her ana ürün grubu için aksesuarlar. defaultSelected=true olanlar otomatik işaretli gelir.",
+    "GV2ME": {
+      "description": "GV2 ME Motor Koruma Şalteri Aksesuarları",
+      "items": [
+        {
+          "code": "GV2AN11",
+          "description": "Yardımcı kontak bloğu, 1NA+1NK (yan montaj)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": true,
+          "qty": 1
+        },
+        {
+          "code": "GV2AN20",
+          "description": "Yardımcı kontak bloğu, 2NA (yan montaj)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "GV2AN02",
+          "description": "Yardımcı kontak bloğu, 2NK (yan montaj)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "GV2AN01",
+          "description": "Alarm kontağı, 1NK (arıza sinyali için)",
+          "category": "Alarm Kontağı",
+          "defaultSelected": true,
+          "qty": 1
+        },
+        {
+          "code": "GV2G05",
+          "description": "Grup montaj adaptörü (3 GV2 yan yana)",
+          "category": "Montaj",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "GV2AF4",
+          "description": "Bağlantı adaptörü LC1D kontaktöre doğrudan montaj",
+          "category": "Montaj",
+          "defaultSelected": true,
+          "qty": 1
+        },
+        {
+          "code": "GV2APN11",
+          "description": "Yardımcı kontak + alarm, 1NA+1NK+1NK (üst montaj)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "GV2MC01",
+          "description": "Kapak kilidi (kapı açıkken şalter açılır)",
+          "category": "Kilit",
+          "defaultSelected": false,
+          "qty": 1
+        }
+      ]
+    },
+    "GV3ME": {
+      "description": "GV3 ME Motor Koruma Şalteri Aksesuarları",
+      "items": [
+        {
+          "code": "GV3A11",
+          "description": "Yardımcı kontak bloğu, 1NA+1NK (yan montaj)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": true,
+          "qty": 1
+        },
+        {
+          "code": "GV3A20",
+          "description": "Yardımcı kontak bloğu, 2NA (yan montaj)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "GV3A01",
+          "description": "Alarm kontağı, 1NK (arıza sinyali için)",
+          "category": "Alarm Kontağı",
+          "defaultSelected": true,
+          "qty": 1
+        },
+        {
+          "code": "GV3G25",
+          "description": "Grup montaj adaptörü",
+          "category": "Montaj",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "GV3MC01",
+          "description": "Kapak kilidi (kapı açıkken şalter açılır)",
+          "category": "Kilit",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "GV3A4",
+          "description": "Harici bağlantı terminali seti",
+          "category": "Terminal",
+          "defaultSelected": false,
+          "qty": 1
+        }
+      ]
+    },
+    "NSXm": {
+      "description": "ComPacT NSXm MCCB Aksesuarları",
+      "items": [
+        {
+          "code": "LV426900",
+          "description": "OF yardımcı kontağı, 1NA+1NK (açık/kapalı sinyali)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": true,
+          "qty": 1
+        },
+        {
+          "code": "LV426920",
+          "description": "SD arıza kontağı, 1NK (trip sinyali)",
+          "category": "Alarm Kontağı",
+          "defaultSelected": true,
+          "qty": 1
+        },
+        {
+          "code": "LV426940",
+          "description": "MN düşük gerilim bobini, 220-240V AC",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LV426950",
+          "description": "MX açma bobini, 220-240V AC",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LV426960",
+          "description": "Motor mekanizması (uzaktan açma/kapama)",
+          "category": "Motor Mekanizması",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LV426970",
+          "description": "Döndürme kolu, doğrudan (IP40)",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LV426975",
+          "description": "Uzatmalı döndürme kolu (kapı montajı için)",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LV426980",
+          "description": "Kilit aksesuar seti (asma kilit deliği)",
+          "category": "Kilit",
+          "defaultSelected": false,
+          "qty": 1
+        }
+      ]
+    },
+    "NSX": {
+      "description": "ComPacT NSX MCCB Aksesuarları",
+      "items": [
+        {
+          "code": "LV429413",
+          "description": "OF yardımcı kontağı, 1NA+1NK (açık/kapalı)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": true,
+          "qty": 1
+        },
+        {
+          "code": "LV429416",
+          "description": "SD arıza kontağı, 1NK (trip sinyali)",
+          "category": "Alarm Kontağı",
+          "defaultSelected": true,
+          "qty": 1
+        },
+        {
+          "code": "LV429418",
+          "description": "SDE harici arıza kontağı",
+          "category": "Alarm Kontağı",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LV429441",
+          "description": "MN düşük gerilim bobini, 220-240V AC",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LV429442",
+          "description": "MX açma bobini, 220-240V AC",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LV429460",
+          "description": "Motor mekanizması, 220-240V AC",
+          "category": "Motor Mekanizması",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LV429464",
+          "description": "Döndürme kolu, doğrudan RHA065 (IP40)",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LV429465",
+          "description": "Uzatmalı döndürme kolu RHE065 (kapı montajı)",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LV429467",
+          "description": "Döner kol kilit aksesuar seti",
+          "category": "Kilit",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LV429480",
+          "description": "Terminale bağlantı kapağı (IP40 parmak koruma)",
+          "category": "Kapak",
+          "defaultSelected": false,
+          "qty": 1
+        }
+      ]
+    },
+    "NS": {
+      "description": "ComPacT NS MCCB Aksesuarları",
+      "items": [
+        {
+          "code": "33104",
+          "description": "OF yardımcı kontağı, 1NA+1NK",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": true,
+          "qty": 1
+        },
+        {
+          "code": "33105",
+          "description": "SD arıza kontağı, 1NK",
+          "category": "Alarm Kontağı",
+          "defaultSelected": true,
+          "qty": 1
+        },
+        {
+          "code": "33201",
+          "description": "MN düşük gerilim bobini, 220-240V AC",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "33200",
+          "description": "MX açma bobini, 220-240V AC",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "33300",
+          "description": "Motor mekanizması, 220-240V AC",
+          "category": "Motor Mekanizması",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "33400",
+          "description": "Döndürme kolu, doğrudan (IP40)",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "33401",
+          "description": "Uzatmalı döndürme kolu (kapı montajı)",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1
+        }
+      ]
+    },
+    "LC1D": {
+      "description": "TeSys D LC1D Kontaktör Aksesuarları",
+      "items": [
+        {
+          "code": "LAD8N11",
+          "description": "Yardımcı kontak bloğu, 1NA+1NK (yan montaj, D09-D38)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": true,
+          "qty": 1
+        },
+        {
+          "code": "LAD8N20",
+          "description": "Yardımcı kontak bloğu, 2NA (yan montaj)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LAD8N02",
+          "description": "Yardımcı kontak bloğu, 2NK (yan montaj)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LADN11",
+          "description": "Yardımcı kontak bloğu, 1NA+1NK (ön montaj, D09-D65)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LAD6K10",
+          "description": "Mekanik kilit (2 kontaktör birbirini kilitler)",
+          "category": "Kilit",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LAD6K11",
+          "description": "Elektrik+mekanik kilit (Y/Δ için)",
+          "category": "Kilit",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LX9FG100",
+          "description": "Değiştirilebilir bobin, 100V AC",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LX9FG110",
+          "description": "Değiştirilebilir bobin, 110V AC",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LAD8FU",
+          "description": "Gerilim göstergeli bobin kapağı (LED)",
+          "category": "Aksesuar",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "LADN40",
+          "description": "Zaman rölesi adaptörü (yıldırım gecikmesi)",
+          "category": "Aksesuar",
+          "defaultSelected": false,
+          "qty": 1
+        }
+      ]
+    }
   }
 }
