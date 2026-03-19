@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "version": "1.5",
+    "version": "1.51",
     "updated": "2026-03",
     "note": "CircuitMaster ekipman veritabanı. Yeni seri veya varyant eklemek için ilgili bloğu düzenleyin.",
     "coilVoltage": "230V AC (sabit)"
@@ -756,7 +756,7 @@
   "softStarters": {
     "PSTX": {
       "brand": "ABB",
-      "series": "PST(B)X",
+      "series": "ABB-PST(B)X",
       "type": "soft-starter",
       "description": "Softstarter, 3 fazlı 400V, dahili bypass",
       "variants": [
@@ -842,7 +842,7 @@
     },
     "MCD500": {
       "brand": "Danfoss",
-      "series": "MCD 500",
+      "series": "Danfoss-MCD 500",
       "type": "soft-starter",
       "description": "Softstarter, 3 fazlı 400V, gelişmiş koruma",
       "variants": [
@@ -937,7 +937,7 @@
 
   "ACS180": {
     "brand": "ABB",
-    "series": "ACS180",
+    "series": "ABB-ACS180",
     "type": "vfd",
     "description": "Genel amaç sürücü, 0.55-22kW / 400V",
     "variants": [
@@ -960,7 +960,7 @@
     
     "ACS380": {
       "brand": "ABB",
-      "series": "ACS380",
+      "series": "ABB-ACS380",
       "type": "vfd",
       "description": "Kompakt sürücü, genel amaç, 0.75–22kW / 400V",
       "variants": [
@@ -1040,7 +1040,7 @@
     },
     "ACS580": {
       "brand": "ABB",
-      "series": "ACS580",
+      "series": "ABB-ACS580",
       "type": "vfd",
       "description": "Genel amaç sürücü, dahili EMC filtre, 0.75–250kW / 400V",
       "variants": [
@@ -1150,7 +1150,7 @@
     },
     "ACS880": {
       "brand": "ABB",
-      "series": "ACS880",
+      "series": "ABB-ACS880",
       "type": "vfd",
       "description": "Endüstriyel sürücü, DTC kontrol, 0.75–250kW / 400V",
       "variants": [
