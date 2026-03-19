@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "version": "1.2",
+    "version": "1.4",
     "updated": "2026-03",
     "note": "CircuitMaster ekipman veritabanı. Yeni seri veya varyant eklemek için ilgili bloğu düzenleyin.",
     "coilVoltage": "230V AC (sabit)"
@@ -1293,7 +1293,7 @@
           "code": "GV2AN11",
           "description": "Yardımcı kontak bloğu, 1NA+1NK (yan montaj)",
           "category": "Yardımcı Kontak",
-          "defaultSelected": true,
+          "defaultSelected": false,
           "qty": 1
         },
         {
@@ -1311,30 +1311,51 @@
           "qty": 1
         },
         {
+          "code": "GV2APN11",
+          "description": "Yardımcı kontak + alarm, 1NA+1NK+1NK (üst montaj)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
           "code": "GV2AN01",
-          "description": "Alarm kontağı, 1NK (arıza sinyali için)",
+          "description": "Alarm kontağı, 1NK (arıza/trip sinyali için)",
           "category": "Alarm Kontağı",
-          "defaultSelected": true,
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "GV2AE11",
+          "description": "Elektronik sinyal bloğu, 1NA+1NK (24V DC uyumlu)",
+          "category": "Sinyal Bloğu",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "GV2AE20",
+          "description": "Elektronik sinyal bloğu, 2NA (24V DC uyumlu)",
+          "category": "Sinyal Bloğu",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "GV2AE01",
+          "description": "Elektronik sinyal bloğu, 2NK (24V DC uyumlu)",
+          "category": "Sinyal Bloğu",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "GV2AF4",
+          "description": "Bağlantı adaptörü — LC1D kontaktöre doğrudan montaj",
+          "category": "Montaj",
+          "defaultSelected": false,
           "qty": 1
         },
         {
           "code": "GV2G05",
           "description": "Grup montaj adaptörü (3 GV2 yan yana)",
           "category": "Montaj",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "GV2AF4",
-          "description": "Bağlantı adaptörü LC1D kontaktöre doğrudan montaj",
-          "category": "Montaj",
-          "defaultSelected": true,
-          "qty": 1
-        },
-        {
-          "code": "GV2APN11",
-          "description": "Yardımcı kontak + alarm, 1NA+1NK+1NK (üst montaj)",
-          "category": "Yardımcı Kontak",
           "defaultSelected": false,
           "qty": 1
         },
@@ -1354,7 +1375,7 @@
           "code": "GV3A11",
           "description": "Yardımcı kontak bloğu, 1NA+1NK (yan montaj)",
           "category": "Yardımcı Kontak",
-          "defaultSelected": true,
+          "defaultSelected": false,
           "qty": 1
         },
         {
@@ -1365,10 +1386,38 @@
           "qty": 1
         },
         {
+          "code": "GV3A02",
+          "description": "Yardımcı kontak bloğu, 2NK (yan montaj)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
           "code": "GV3A01",
-          "description": "Alarm kontağı, 1NK (arıza sinyali için)",
+          "description": "Alarm kontağı, 1NK (arıza/trip sinyali için)",
           "category": "Alarm Kontağı",
-          "defaultSelected": true,
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "GV3AE11",
+          "description": "Elektronik sinyal bloğu, 1NA+1NK (24V DC uyumlu)",
+          "category": "Sinyal Bloğu",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "GV3AE20",
+          "description": "Elektronik sinyal bloğu, 2NA (24V DC uyumlu)",
+          "category": "Sinyal Bloğu",
+          "defaultSelected": false,
+          "qty": 1
+        },
+        {
+          "code": "GV3AE01",
+          "description": "Elektronik sinyal bloğu, 2NK (24V DC uyumlu)",
+          "category": "Sinyal Bloğu",
+          "defaultSelected": false,
           "qty": 1
         },
         {
@@ -1379,16 +1428,16 @@
           "qty": 1
         },
         {
-          "code": "GV3MC01",
-          "description": "Kapak kilidi (kapı açıkken şalter açılır)",
-          "category": "Kilit",
+          "code": "GV3A4",
+          "description": "Harici bağlantı terminali seti",
+          "category": "Terminal",
           "defaultSelected": false,
           "qty": 1
         },
         {
-          "code": "GV3A4",
-          "description": "Harici bağlantı terminali seti",
-          "category": "Terminal",
+          "code": "GV3MC01",
+          "description": "Kapak kilidi (kapı açıkken şalter açılır)",
+          "category": "Kilit",
           "defaultSelected": false,
           "qty": 1
         }
@@ -1401,14 +1450,14 @@
           "code": "LV426900",
           "description": "OF yardımcı kontağı, 1NA+1NK (açık/kapalı sinyali)",
           "category": "Yardımcı Kontak",
-          "defaultSelected": true,
+          "defaultSelected": false,
           "qty": 1
         },
         {
           "code": "LV426920",
           "description": "SD arıza kontağı, 1NK (trip sinyali)",
           "category": "Alarm Kontağı",
-          "defaultSelected": true,
+          "defaultSelected": false,
           "qty": 1
         },
         {
@@ -1462,14 +1511,14 @@
           "code": "LV429413",
           "description": "OF yardımcı kontağı, 1NA+1NK (açık/kapalı)",
           "category": "Yardımcı Kontak",
-          "defaultSelected": true,
+          "defaultSelected": false,
           "qty": 1
         },
         {
           "code": "LV429416",
           "description": "SD arıza kontağı, 1NK (trip sinyali)",
           "category": "Alarm Kontağı",
-          "defaultSelected": true,
+          "defaultSelected": false,
           "qty": 1
         },
         {
@@ -1537,14 +1586,14 @@
           "code": "33104",
           "description": "OF yardımcı kontağı, 1NA+1NK",
           "category": "Yardımcı Kontak",
-          "defaultSelected": true,
+          "defaultSelected": false,
           "qty": 1
         },
         {
           "code": "33105",
           "description": "SD arıza kontağı, 1NK",
           "category": "Alarm Kontağı",
-          "defaultSelected": true,
+          "defaultSelected": false,
           "qty": 1
         },
         {
@@ -1591,7 +1640,7 @@
           "code": "LAD8N11",
           "description": "Yardımcı kontak bloğu, 1NA+1NK (yan montaj, D09-D38)",
           "category": "Yardımcı Kontak",
-          "defaultSelected": true,
+          "defaultSelected": false,
           "qty": 1
         },
         {
