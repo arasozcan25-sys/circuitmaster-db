@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "version": "1.51",
+    "version": "1.6",
     "updated": "2026-03",
     "note": "CircuitMaster ekipman veritabanı. Yeni seri veya varyant eklemek için ilgili bloğu düzenleyin.",
     "coilVoltage": "230V AC (sabit)"
