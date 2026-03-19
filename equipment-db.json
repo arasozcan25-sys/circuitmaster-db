@@ -1,0 +1,1287 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "updated": "2026-03",
+    "note": "CircuitMaster ekipman veritabanı. Yeni seri veya varyant eklemek için ilgili bloğu düzenleyin.",
+    "coilVoltage": "230V AC (sabit)"
+  },
+  "motorProtection": {
+    "GV2ME": {
+      "brand": "Schneider Electric",
+      "series": "GV2 ME",
+      "type": "motor-protection",
+      "description": "Motor koruma şalteri, manyetik+termal, 0.1–32A",
+      "maxPower_kW": 15,
+      "loadTypes": [
+        "motor"
+      ],
+      "variants": [
+        {
+          "code": "GV2ME03",
+          "Imin": 0.25,
+          "Imax": 0.4,
+          "label": "0.25–0.40 A"
+        },
+        {
+          "code": "GV2ME04",
+          "Imin": 0.4,
+          "Imax": 0.63,
+          "label": "0.40–0.63 A"
+        },
+        {
+          "code": "GV2ME05",
+          "Imin": 0.63,
+          "Imax": 1.0,
+          "label": "0.63–1.0 A"
+        },
+        {
+          "code": "GV2ME06",
+          "Imin": 1.0,
+          "Imax": 1.6,
+          "label": "1.0–1.6 A"
+        },
+        {
+          "code": "GV2ME07",
+          "Imin": 1.6,
+          "Imax": 2.5,
+          "label": "1.6–2.5 A"
+        },
+        {
+          "code": "GV2ME08",
+          "Imin": 2.5,
+          "Imax": 4.0,
+          "label": "2.5–4.0 A"
+        },
+        {
+          "code": "GV2ME10",
+          "Imin": 4.0,
+          "Imax": 6.3,
+          "label": "4.0–6.3 A"
+        },
+        {
+          "code": "GV2ME14",
+          "Imin": 6.0,
+          "Imax": 10.0,
+          "label": "6.0–10 A"
+        },
+        {
+          "code": "GV2ME16",
+          "Imin": 10.0,
+          "Imax": 16.0,
+          "label": "10–16 A"
+        },
+        {
+          "code": "GV2ME20",
+          "Imin": 13.0,
+          "Imax": 18.0,
+          "label": "13–18 A"
+        },
+        {
+          "code": "GV2ME21",
+          "Imin": 17.0,
+          "Imax": 23.0,
+          "label": "17–23 A"
+        },
+        {
+          "code": "GV2ME22",
+          "Imin": 20.0,
+          "Imax": 32.0,
+          "label": "20–32 A"
+        }
+      ]
+    },
+    "GV3ME": {
+      "brand": "Schneider Electric",
+      "series": "GV3 ME",
+      "type": "motor-protection",
+      "description": "Motor koruma şalteri, 25–100A",
+      "maxPower_kW": 55,
+      "loadTypes": [
+        "motor"
+      ],
+      "variants": [
+        {
+          "code": "GV3ME25",
+          "Imin": 17,
+          "Imax": 25,
+          "label": "17–25 A"
+        },
+        {
+          "code": "GV3ME32",
+          "Imin": 23,
+          "Imax": 32,
+          "label": "23–32 A"
+        },
+        {
+          "code": "GV3ME40",
+          "Imin": 30,
+          "Imax": 40,
+          "label": "30–40 A"
+        },
+        {
+          "code": "GV3ME50",
+          "Imin": 37,
+          "Imax": 50,
+          "label": "37–50 A"
+        },
+        {
+          "code": "GV3ME63",
+          "Imin": 48,
+          "Imax": 63,
+          "label": "48–63 A"
+        },
+        {
+          "code": "GV3ME80",
+          "Imin": 60,
+          "Imax": 80,
+          "label": "60–80 A"
+        },
+        {
+          "code": "GV3ME100",
+          "Imin": 80,
+          "Imax": 100,
+          "label": "80–100 A"
+        }
+      ]
+    }
+  },
+  "circuitBreakers": {
+    "iC60N_B": {
+      "brand": "Schneider Electric",
+      "series": "Acti9 iC60N",
+      "type": "mcb",
+      "curve": "B",
+      "description": "MCB B eğrisi – Isıtıcı, trafo, uzun hat",
+      "loadTypes": [
+        "heater",
+        "feeder"
+      ],
+      "variants": [
+        {
+          "code": "A9F53106",
+          "In": 6,
+          "poles": 1,
+          "label": "iC60N B6  1P"
+        },
+        {
+          "code": "A9F53110",
+          "In": 10,
+          "poles": 1,
+          "label": "iC60N B10 1P"
+        },
+        {
+          "code": "A9F53116",
+          "In": 16,
+          "poles": 1,
+          "label": "iC60N B16 1P"
+        },
+        {
+          "code": "A9F53120",
+          "In": 20,
+          "poles": 1,
+          "label": "iC60N B20 1P"
+        },
+        {
+          "code": "A9F53125",
+          "In": 25,
+          "poles": 1,
+          "label": "iC60N B25 1P"
+        },
+        {
+          "code": "A9F53132",
+          "In": 32,
+          "poles": 1,
+          "label": "iC60N B32 1P"
+        },
+        {
+          "code": "A9F53140",
+          "In": 40,
+          "poles": 1,
+          "label": "iC60N B40 1P"
+        },
+        {
+          "code": "A9F53150",
+          "In": 50,
+          "poles": 1,
+          "label": "iC60N B50 1P"
+        },
+        {
+          "code": "A9F53163",
+          "In": 63,
+          "poles": 1,
+          "label": "iC60N B63 1P"
+        },
+        {
+          "code": "A9F53306",
+          "In": 6,
+          "poles": 3,
+          "label": "iC60N B6  3P"
+        },
+        {
+          "code": "A9F53310",
+          "In": 10,
+          "poles": 3,
+          "label": "iC60N B10 3P"
+        },
+        {
+          "code": "A9F53316",
+          "In": 16,
+          "poles": 3,
+          "label": "iC60N B16 3P"
+        },
+        {
+          "code": "A9F53320",
+          "In": 20,
+          "poles": 3,
+          "label": "iC60N B20 3P"
+        },
+        {
+          "code": "A9F53325",
+          "In": 25,
+          "poles": 3,
+          "label": "iC60N B25 3P"
+        },
+        {
+          "code": "A9F53332",
+          "In": 32,
+          "poles": 3,
+          "label": "iC60N B32 3P"
+        },
+        {
+          "code": "A9F53340",
+          "In": 40,
+          "poles": 3,
+          "label": "iC60N B40 3P"
+        },
+        {
+          "code": "A9F53350",
+          "In": 50,
+          "poles": 3,
+          "label": "iC60N B50 3P"
+        },
+        {
+          "code": "A9F53363",
+          "In": 63,
+          "poles": 3,
+          "label": "iC60N B63 3P"
+        }
+      ]
+    },
+    "iC60N_C": {
+      "brand": "Schneider Electric",
+      "series": "Acti9 iC60N",
+      "type": "mcb",
+      "curve": "C",
+      "description": "MCB C eğrisi – Motor, pompa, genel yük",
+      "loadTypes": [
+        "motor",
+        "feeder",
+        "heater"
+      ],
+      "variants": [
+        {
+          "code": "A9F74106",
+          "In": 6,
+          "poles": 1,
+          "label": "iC60N C6  1P"
+        },
+        {
+          "code": "A9F74110",
+          "In": 10,
+          "poles": 1,
+          "label": "iC60N C10 1P"
+        },
+        {
+          "code": "A9F74116",
+          "In": 16,
+          "poles": 1,
+          "label": "iC60N C16 1P"
+        },
+        {
+          "code": "A9F74120",
+          "In": 20,
+          "poles": 1,
+          "label": "iC60N C20 1P"
+        },
+        {
+          "code": "A9F74125",
+          "In": 25,
+          "poles": 1,
+          "label": "iC60N C25 1P"
+        },
+        {
+          "code": "A9F74132",
+          "In": 32,
+          "poles": 1,
+          "label": "iC60N C32 1P"
+        },
+        {
+          "code": "A9F74140",
+          "In": 40,
+          "poles": 1,
+          "label": "iC60N C40 1P"
+        },
+        {
+          "code": "A9F74150",
+          "In": 50,
+          "poles": 1,
+          "label": "iC60N C50 1P"
+        },
+        {
+          "code": "A9F74163",
+          "In": 63,
+          "poles": 1,
+          "label": "iC60N C63 1P"
+        },
+        {
+          "code": "A9F74306",
+          "In": 6,
+          "poles": 3,
+          "label": "iC60N C6  3P"
+        },
+        {
+          "code": "A9F74310",
+          "In": 10,
+          "poles": 3,
+          "label": "iC60N C10 3P"
+        },
+        {
+          "code": "A9F74316",
+          "In": 16,
+          "poles": 3,
+          "label": "iC60N C16 3P"
+        },
+        {
+          "code": "A9F74320",
+          "In": 20,
+          "poles": 3,
+          "label": "iC60N C20 3P"
+        },
+        {
+          "code": "A9F74325",
+          "In": 25,
+          "poles": 3,
+          "label": "iC60N C25 3P"
+        },
+        {
+          "code": "A9F74332",
+          "In": 32,
+          "poles": 3,
+          "label": "iC60N C32 3P"
+        },
+        {
+          "code": "A9F74340",
+          "In": 40,
+          "poles": 3,
+          "label": "iC60N C40 3P"
+        },
+        {
+          "code": "A9F74350",
+          "In": 50,
+          "poles": 3,
+          "label": "iC60N C50 3P"
+        },
+        {
+          "code": "A9F74363",
+          "In": 63,
+          "poles": 3,
+          "label": "iC60N C63 3P"
+        }
+      ]
+    },
+    "C120N_C": {
+      "brand": "Schneider Electric",
+      "series": "Acti9 C120N",
+      "type": "mcb",
+      "curve": "C",
+      "description": "MCB C eğrisi – 80–125A büyük yükler",
+      "loadTypes": [
+        "feeder",
+        "motor",
+        "heater"
+      ],
+      "variants": [
+        {
+          "code": "A9N18358",
+          "In": 80,
+          "poles": 3,
+          "label": "C120N C80  3P"
+        },
+        {
+          "code": "A9N18359",
+          "In": 100,
+          "poles": 3,
+          "label": "C120N C100 3P"
+        },
+        {
+          "code": "A9N18360",
+          "In": 125,
+          "poles": 3,
+          "label": "C120N C125 3P"
+        }
+      ]
+    },
+    "NSXm": {
+      "brand": "Schneider Electric",
+      "series": "ComPacT NSXm",
+      "type": "mccb",
+      "description": "MCCB 16–160A, kompakt tip",
+      "loadTypes": [
+        "feeder",
+        "motor",
+        "heater"
+      ],
+      "variants": [
+        {
+          "code": "LV426620",
+          "In": 25,
+          "Icu": 25,
+          "poles": 3,
+          "label": "NSXm 25A  3P 25kA"
+        },
+        {
+          "code": "LV426630",
+          "In": 32,
+          "Icu": 25,
+          "poles": 3,
+          "label": "NSXm 32A  3P 25kA"
+        },
+        {
+          "code": "LV426640",
+          "In": 40,
+          "Icu": 25,
+          "poles": 3,
+          "label": "NSXm 40A  3P 25kA"
+        },
+        {
+          "code": "LV426650",
+          "In": 50,
+          "Icu": 25,
+          "poles": 3,
+          "label": "NSXm 50A  3P 25kA"
+        },
+        {
+          "code": "LV426660",
+          "In": 63,
+          "Icu": 25,
+          "poles": 3,
+          "label": "NSXm 63A  3P 25kA"
+        },
+        {
+          "code": "LV426670",
+          "In": 80,
+          "Icu": 25,
+          "poles": 3,
+          "label": "NSXm 80A  3P 25kA"
+        },
+        {
+          "code": "LV426680",
+          "In": 100,
+          "Icu": 25,
+          "poles": 3,
+          "label": "NSXm 100A 3P 25kA"
+        },
+        {
+          "code": "LV426690",
+          "In": 125,
+          "Icu": 25,
+          "poles": 3,
+          "label": "NSXm 125A 3P 25kA"
+        },
+        {
+          "code": "LV426700",
+          "In": 160,
+          "Icu": 25,
+          "poles": 3,
+          "label": "NSXm 160A 3P 25kA"
+        }
+      ]
+    },
+    "NSX": {
+      "brand": "Schneider Electric",
+      "series": "ComPacT NSX",
+      "type": "mccb",
+      "description": "MCCB 100–630A",
+      "loadTypes": [
+        "feeder"
+      ],
+      "variants": [
+        {
+          "code": "LV431630",
+          "In": 100,
+          "Icu": 36,
+          "poles": 3,
+          "label": "NSX100F 100A 3P 36kA"
+        },
+        {
+          "code": "LV431831",
+          "In": 160,
+          "Icu": 36,
+          "poles": 3,
+          "label": "NSX160F 160A 3P 36kA"
+        },
+        {
+          "code": "LV432630",
+          "In": 250,
+          "Icu": 36,
+          "poles": 3,
+          "label": "NSX250F 250A 3P 36kA"
+        },
+        {
+          "code": "LV433630",
+          "In": 400,
+          "Icu": 36,
+          "poles": 3,
+          "label": "NSX400F 400A 3P 36kA"
+        },
+        {
+          "code": "LV434630",
+          "In": 630,
+          "Icu": 36,
+          "poles": 3,
+          "label": "NSX630F 630A 3P 36kA"
+        }
+      ]
+    },
+    "NS": {
+      "brand": "Schneider Electric",
+      "series": "ComPacT NS",
+      "type": "mccb",
+      "description": "MCCB 630–1600A",
+      "loadTypes": [
+        "feeder"
+      ],
+      "variants": [
+        {
+          "code": "33521",
+          "In": 630,
+          "Icu": 50,
+          "poles": 3,
+          "label": "NS630b  N 630A  3P 50kA"
+        },
+        {
+          "code": "33531",
+          "In": 800,
+          "Icu": 50,
+          "poles": 3,
+          "label": "NS800b  N 800A  3P 50kA"
+        },
+        {
+          "code": "33541",
+          "In": 1000,
+          "Icu": 50,
+          "poles": 3,
+          "label": "NS1000b N 1000A 3P 50kA"
+        },
+        {
+          "code": "33551",
+          "In": 1250,
+          "Icu": 50,
+          "poles": 3,
+          "label": "NS1250b N 1250A 3P 50kA"
+        },
+        {
+          "code": "33561",
+          "In": 1600,
+          "Icu": 50,
+          "poles": 3,
+          "label": "NS1600b N 1600A 3P 50kA"
+        }
+      ]
+    },
+    "INS": {
+      "brand": "Schneider Electric",
+      "series": "ComPacT INS",
+      "type": "disconnector",
+      "description": "Yük ayırıcı (disconnector), 40–1000A",
+      "loadTypes": [
+        "feeder",
+        "motor",
+        "heater"
+      ],
+      "variants": [
+        {
+          "code": "LV480803",
+          "In": 40,
+          "poles": 3,
+          "label": "INS40   3P"
+        },
+        {
+          "code": "LV480806",
+          "In": 63,
+          "poles": 3,
+          "label": "INS63   3P"
+        },
+        {
+          "code": "LV480810",
+          "In": 100,
+          "poles": 3,
+          "label": "INS100  3P"
+        },
+        {
+          "code": "LV480813",
+          "In": 125,
+          "poles": 3,
+          "label": "INS125  3P"
+        },
+        {
+          "code": "LV480816",
+          "In": 160,
+          "poles": 3,
+          "label": "INS160  3P"
+        },
+        {
+          "code": "LV480820",
+          "In": 250,
+          "poles": 3,
+          "label": "INS250  3P"
+        },
+        {
+          "code": "LV480825",
+          "In": 400,
+          "poles": 3,
+          "label": "INS400  3P"
+        },
+        {
+          "code": "LV480830",
+          "In": 630,
+          "poles": 3,
+          "label": "INS630  3P"
+        },
+        {
+          "code": "LV480840",
+          "In": 800,
+          "poles": 3,
+          "label": "INS800  3P"
+        },
+        {
+          "code": "LV480850",
+          "In": 1000,
+          "poles": 3,
+          "label": "INS1000 3P"
+        }
+      ]
+    }
+  },
+  "contactors": {
+    "LC1D": {
+      "brand": "Schneider Electric",
+      "series": "TeSys D – LC1D",
+      "type": "contactor",
+      "coilVoltage": "230V AC",
+      "coilCode": "M7",
+      "description": "AC-3 kontaktör, 9–150A, 230V AC bobin",
+      "variants": [
+        {
+          "code": "LC1D09M7",
+          "Ie_AC3": 9,
+          "kW_400V": 4,
+          "label": "LC1D09M7  – 9A   / 4kW"
+        },
+        {
+          "code": "LC1D12M7",
+          "Ie_AC3": 12,
+          "kW_400V": 5.5,
+          "label": "LC1D12M7  – 12A  / 5.5kW"
+        },
+        {
+          "code": "LC1D18M7",
+          "Ie_AC3": 18,
+          "kW_400V": 7.5,
+          "label": "LC1D18M7  – 18A  / 7.5kW"
+        },
+        {
+          "code": "LC1D25M7",
+          "Ie_AC3": 25,
+          "kW_400V": 11,
+          "label": "LC1D25M7  – 25A  / 11kW"
+        },
+        {
+          "code": "LC1D32M7",
+          "Ie_AC3": 32,
+          "kW_400V": 15,
+          "label": "LC1D32M7  – 32A  / 15kW"
+        },
+        {
+          "code": "LC1D38M7",
+          "Ie_AC3": 38,
+          "kW_400V": 18.5,
+          "label": "LC1D38M7  – 38A  / 18.5kW"
+        },
+        {
+          "code": "LC1D40M7",
+          "Ie_AC3": 40,
+          "kW_400V": 18.5,
+          "label": "LC1D40M7  – 40A  / 18.5kW"
+        },
+        {
+          "code": "LC1D50M7",
+          "Ie_AC3": 50,
+          "kW_400V": 22,
+          "label": "LC1D50M7  – 50A  / 22kW"
+        },
+        {
+          "code": "LC1D65M7",
+          "Ie_AC3": 65,
+          "kW_400V": 30,
+          "label": "LC1D65M7  – 65A  / 30kW"
+        },
+        {
+          "code": "LC1D80M7",
+          "Ie_AC3": 80,
+          "kW_400V": 37,
+          "label": "LC1D80M7  – 80A  / 37kW"
+        },
+        {
+          "code": "LC1D95M7",
+          "Ie_AC3": 95,
+          "kW_400V": 45,
+          "label": "LC1D95M7  – 95A  / 45kW"
+        },
+        {
+          "code": "LC1D115M7",
+          "Ie_AC3": 115,
+          "kW_400V": 55,
+          "label": "LC1D115M7 – 115A / 55kW"
+        },
+        {
+          "code": "LC1D150M7",
+          "Ie_AC3": 150,
+          "kW_400V": 75,
+          "label": "LC1D150M7 – 150A / 75kW"
+        }
+      ]
+    }
+  },
+  "softStarters": {
+    "PSTX": {
+      "brand": "ABB",
+      "series": "PST(B)X",
+      "type": "soft-starter",
+      "description": "Softstarter, 3 fazlı 400V, dahili bypass",
+      "variants": [
+        {
+          "code": "PSTX30-600-70",
+          "In": 30,
+          "kW_400V": 15,
+          "label": "PSTX30  – 30A  / 15kW"
+        },
+        {
+          "code": "PSTX37-600-70",
+          "In": 37,
+          "kW_400V": 18.5,
+          "label": "PSTX37  – 37A  / 18.5kW"
+        },
+        {
+          "code": "PSTX45-600-70",
+          "In": 45,
+          "kW_400V": 22,
+          "label": "PSTX45  – 45A  / 22kW"
+        },
+        {
+          "code": "PSTX60-600-70",
+          "In": 60,
+          "kW_400V": 30,
+          "label": "PSTX60  – 60A  / 30kW"
+        },
+        {
+          "code": "PSTX72-600-70",
+          "In": 72,
+          "kW_400V": 37,
+          "label": "PSTX72  – 72A  / 37kW"
+        },
+        {
+          "code": "PSTX85-600-70",
+          "In": 85,
+          "kW_400V": 45,
+          "label": "PSTX85  – 85A  / 45kW"
+        },
+        {
+          "code": "PSTX105-600-70",
+          "In": 105,
+          "kW_400V": 55,
+          "label": "PSTX105 – 105A / 55kW"
+        },
+        {
+          "code": "PSTX142-600-70",
+          "In": 142,
+          "kW_400V": 75,
+          "label": "PSTX142 – 142A / 75kW"
+        },
+        {
+          "code": "PSTX170-600-70",
+          "In": 170,
+          "kW_400V": 90,
+          "label": "PSTX170 – 170A / 90kW"
+        },
+        {
+          "code": "PSTX210-600-70",
+          "In": 210,
+          "kW_400V": 110,
+          "label": "PSTX210 – 210A / 110kW"
+        },
+        {
+          "code": "PSTX250-600-70",
+          "In": 250,
+          "kW_400V": 132,
+          "label": "PSTX250 – 250A / 132kW"
+        },
+        {
+          "code": "PSTX300-600-70",
+          "In": 300,
+          "kW_400V": 160,
+          "label": "PSTX300 – 300A / 160kW"
+        },
+        {
+          "code": "PSTX370-600-70",
+          "In": 370,
+          "kW_400V": 200,
+          "label": "PSTX370 – 370A / 200kW"
+        }
+      ]
+    },
+    "MCD500": {
+      "brand": "Danfoss",
+      "series": "MCD 500",
+      "type": "soft-starter",
+      "description": "Softstarter, 3 fazlı 400V, gelişmiş koruma",
+      "variants": [
+        {
+          "code": "MCD5-0017B",
+          "In": 17,
+          "kW_400V": 7.5,
+          "label": "MCD500 17A  / 7.5kW"
+        },
+        {
+          "code": "MCD5-0021B",
+          "In": 21,
+          "kW_400V": 11,
+          "label": "MCD500 21A  / 11kW"
+        },
+        {
+          "code": "MCD5-0027B",
+          "In": 27,
+          "kW_400V": 15,
+          "label": "MCD500 27A  / 15kW"
+        },
+        {
+          "code": "MCD5-0032B",
+          "In": 32,
+          "kW_400V": 18.5,
+          "label": "MCD500 32A  / 18.5kW"
+        },
+        {
+          "code": "MCD5-0038B",
+          "In": 38,
+          "kW_400V": 22,
+          "label": "MCD500 38A  / 22kW"
+        },
+        {
+          "code": "MCD5-0061B",
+          "In": 61,
+          "kW_400V": 30,
+          "label": "MCD500 61A  / 30kW"
+        },
+        {
+          "code": "MCD5-0072B",
+          "In": 72,
+          "kW_400V": 37,
+          "label": "MCD500 72A  / 37kW"
+        },
+        {
+          "code": "MCD5-0085B",
+          "In": 85,
+          "kW_400V": 45,
+          "label": "MCD500 85A  / 45kW"
+        },
+        {
+          "code": "MCD5-0105B",
+          "In": 105,
+          "kW_400V": 55,
+          "label": "MCD500 105A / 55kW"
+        },
+        {
+          "code": "MCD5-0131B",
+          "In": 131,
+          "kW_400V": 75,
+          "label": "MCD500 131A / 75kW"
+        },
+        {
+          "code": "MCD5-0160B",
+          "In": 160,
+          "kW_400V": 90,
+          "label": "MCD500 160A / 90kW"
+        },
+        {
+          "code": "MCD5-0195B",
+          "In": 195,
+          "kW_400V": 110,
+          "label": "MCD500 195A / 110kW"
+        },
+        {
+          "code": "MCD5-0245B",
+          "In": 245,
+          "kW_400V": 132,
+          "label": "MCD500 245A / 132kW"
+        },
+        {
+          "code": "MCD5-0300B",
+          "In": 300,
+          "kW_400V": 160,
+          "label": "MCD500 300A / 160kW"
+        }
+      ]
+    }
+  },
+  "vfd": {
+    "ACS380": {
+      "brand": "ABB",
+      "series": "ACS380",
+      "type": "vfd",
+      "description": "Kompakt sürücü, genel amaç, 0.75–22kW / 400V",
+      "variants": [
+        {
+          "code": "ACS380-040S-02A6-4",
+          "In": 2.6,
+          "kW_400V": 0.75,
+          "label": "ACS380 0.75kW / 2.6A"
+        },
+        {
+          "code": "ACS380-040S-03A3-4",
+          "In": 3.3,
+          "kW_400V": 1.1,
+          "label": "ACS380 1.1kW  / 3.3A"
+        },
+        {
+          "code": "ACS380-040S-04A8-4",
+          "In": 4.8,
+          "kW_400V": 1.5,
+          "label": "ACS380 1.5kW  / 4.8A"
+        },
+        {
+          "code": "ACS380-040S-06A9-4",
+          "In": 6.9,
+          "kW_400V": 2.2,
+          "label": "ACS380 2.2kW  / 6.9A"
+        },
+        {
+          "code": "ACS380-040S-09A4-4",
+          "In": 9.4,
+          "kW_400V": 3.0,
+          "label": "ACS380 3.0kW  / 9.4A"
+        },
+        {
+          "code": "ACS380-040S-12A6-4",
+          "In": 12.6,
+          "kW_400V": 4.0,
+          "label": "ACS380 4.0kW  / 12.6A"
+        },
+        {
+          "code": "ACS380-040S-17A0-4",
+          "In": 17.0,
+          "kW_400V": 5.5,
+          "label": "ACS380 5.5kW  / 17A"
+        },
+        {
+          "code": "ACS380-040S-23A0-4",
+          "In": 23.0,
+          "kW_400V": 7.5,
+          "label": "ACS380 7.5kW  / 23A"
+        },
+        {
+          "code": "ACS380-040S-31A0-4",
+          "In": 31.0,
+          "kW_400V": 11,
+          "label": "ACS380 11kW   / 31A"
+        },
+        {
+          "code": "ACS380-040S-38A0-4",
+          "In": 38.0,
+          "kW_400V": 15,
+          "label": "ACS380 15kW   / 38A"
+        },
+        {
+          "code": "ACS380-040S-45A0-4",
+          "In": 45.0,
+          "kW_400V": 18.5,
+          "label": "ACS380 18.5kW / 45A"
+        },
+        {
+          "code": "ACS380-040S-61A0-4",
+          "In": 61.0,
+          "kW_400V": 22,
+          "label": "ACS380 22kW   / 61A"
+        }
+      ]
+    },
+    "ACS580": {
+      "brand": "ABB",
+      "series": "ACS580",
+      "type": "vfd",
+      "description": "Genel amaç sürücü, dahili EMC filtre, 0.75–250kW / 400V",
+      "variants": [
+        {
+          "code": "ACS580-01-02A7-4",
+          "In": 2.7,
+          "kW_400V": 0.75,
+          "label": "ACS580 0.75kW / 2.7A"
+        },
+        {
+          "code": "ACS580-01-04A8-4",
+          "In": 4.8,
+          "kW_400V": 1.5,
+          "label": "ACS580 1.5kW  / 4.8A"
+        },
+        {
+          "code": "ACS580-01-07A3-4",
+          "In": 7.3,
+          "kW_400V": 2.2,
+          "label": "ACS580 2.2kW  / 7.3A"
+        },
+        {
+          "code": "ACS580-01-09A5-4",
+          "In": 9.5,
+          "kW_400V": 3.0,
+          "label": "ACS580 3.0kW  / 9.5A"
+        },
+        {
+          "code": "ACS580-01-017A-4",
+          "In": 17.0,
+          "kW_400V": 5.5,
+          "label": "ACS580 5.5kW  / 17A"
+        },
+        {
+          "code": "ACS580-01-025A-4",
+          "In": 25.0,
+          "kW_400V": 7.5,
+          "label": "ACS580 7.5kW  / 25A"
+        },
+        {
+          "code": "ACS580-01-031A-4",
+          "In": 31.0,
+          "kW_400V": 11,
+          "label": "ACS580 11kW   / 31A"
+        },
+        {
+          "code": "ACS580-01-038A-4",
+          "In": 38.0,
+          "kW_400V": 15,
+          "label": "ACS580 15kW   / 38A"
+        },
+        {
+          "code": "ACS580-01-061A-4",
+          "In": 61.0,
+          "kW_400V": 22,
+          "label": "ACS580 22kW   / 61A"
+        },
+        {
+          "code": "ACS580-01-072A-4",
+          "In": 72.0,
+          "kW_400V": 30,
+          "label": "ACS580 30kW   / 72A"
+        },
+        {
+          "code": "ACS580-01-087A-4",
+          "In": 87.0,
+          "kW_400V": 37,
+          "label": "ACS580 37kW   / 87A"
+        },
+        {
+          "code": "ACS580-01-106A-4",
+          "In": 106,
+          "kW_400V": 45,
+          "label": "ACS580 45kW   / 106A"
+        },
+        {
+          "code": "ACS580-01-145A-4",
+          "In": 145,
+          "kW_400V": 55,
+          "label": "ACS580 55kW   / 145A"
+        },
+        {
+          "code": "ACS580-01-169A-4",
+          "In": 169,
+          "kW_400V": 75,
+          "label": "ACS580 75kW   / 169A"
+        },
+        {
+          "code": "ACS580-01-240A-4",
+          "In": 240,
+          "kW_400V": 110,
+          "label": "ACS580 110kW  / 240A"
+        },
+        {
+          "code": "ACS580-01-363A-4",
+          "In": 363,
+          "kW_400V": 160,
+          "label": "ACS580 160kW  / 363A"
+        },
+        {
+          "code": "ACS580-01-505A-4",
+          "In": 505,
+          "kW_400V": 250,
+          "label": "ACS580 250kW  / 505A"
+        }
+      ]
+    },
+    "ACS880": {
+      "brand": "ABB",
+      "series": "ACS880",
+      "type": "vfd",
+      "description": "Endüstriyel sürücü, DTC kontrol, 0.75–250kW / 400V",
+      "variants": [
+        {
+          "code": "ACS880-01-03A3-3",
+          "In": 3.3,
+          "kW_400V": 0.75,
+          "label": "ACS880 0.75kW / 3.3A"
+        },
+        {
+          "code": "ACS880-01-06A9-3",
+          "In": 6.9,
+          "kW_400V": 2.2,
+          "label": "ACS880 2.2kW  / 6.9A"
+        },
+        {
+          "code": "ACS880-01-012A-3",
+          "In": 12.0,
+          "kW_400V": 4.0,
+          "label": "ACS880 4.0kW  / 12A"
+        },
+        {
+          "code": "ACS880-01-017A-3",
+          "In": 17.0,
+          "kW_400V": 5.5,
+          "label": "ACS880 5.5kW  / 17A"
+        },
+        {
+          "code": "ACS880-01-025A-3",
+          "In": 25.0,
+          "kW_400V": 7.5,
+          "label": "ACS880 7.5kW  / 25A"
+        },
+        {
+          "code": "ACS880-01-032A-3",
+          "In": 32.0,
+          "kW_400V": 11,
+          "label": "ACS880 11kW   / 32A"
+        },
+        {
+          "code": "ACS880-01-046A-3",
+          "In": 46.0,
+          "kW_400V": 18.5,
+          "label": "ACS880 18.5kW / 46A"
+        },
+        {
+          "code": "ACS880-01-061A-3",
+          "In": 61.0,
+          "kW_400V": 22,
+          "label": "ACS880 22kW   / 61A"
+        },
+        {
+          "code": "ACS880-01-075A-3",
+          "In": 75.0,
+          "kW_400V": 30,
+          "label": "ACS880 30kW   / 75A"
+        },
+        {
+          "code": "ACS880-01-105A-3",
+          "In": 105,
+          "kW_400V": 45,
+          "label": "ACS880 45kW   / 105A"
+        },
+        {
+          "code": "ACS880-01-145A-3",
+          "In": 145,
+          "kW_400V": 55,
+          "label": "ACS880 55kW   / 145A"
+        },
+        {
+          "code": "ACS880-01-169A-3",
+          "In": 169,
+          "kW_400V": 75,
+          "label": "ACS880 75kW   / 169A"
+        },
+        {
+          "code": "ACS880-01-260A-3",
+          "In": 260,
+          "kW_400V": 110,
+          "label": "ACS880 110kW  / 260A"
+        },
+        {
+          "code": "ACS880-01-385A-3",
+          "In": 385,
+          "kW_400V": 160,
+          "label": "ACS880 160kW  / 385A"
+        },
+        {
+          "code": "ACS880-01-502A-3",
+          "In": 502,
+          "kW_400V": 250,
+          "label": "ACS880 250kW  / 502A"
+        }
+      ]
+    }
+  },
+  "startingMethods": {
+    "DOL": {
+      "label": "DOL – Direkt Yol Verme",
+      "contactors": [
+        "main"
+      ],
+      "maxRecommended_kW": 7.5
+    },
+    "YD": {
+      "label": "Y/Δ – Yıldız / Üçgen",
+      "contactors": [
+        "main",
+        "star",
+        "delta"
+      ],
+      "minRecommended_kW": 7.5
+    },
+    "SS": {
+      "label": "SS – Soft Starter",
+      "contactors": [],
+      "device": "softStarter"
+    },
+    "VFD": {
+      "label": "VFD – Frekans Sürücüsü",
+      "contactors": [],
+      "device": "vfd"
+    }
+  },
+  "standardMotorCurrents_400V": {
+    "_note": "IEC 60034 ref. tam yük akımları, cosφ=0.85, η=0.92",
+    "0.18": 0.5,
+    "0.25": 0.65,
+    "0.37": 0.95,
+    "0.55": 1.4,
+    "0.75": 1.8,
+    "1.1": 2.6,
+    "1.5": 3.5,
+    "2.2": 5.0,
+    "3.0": 6.7,
+    "4.0": 8.6,
+    "5.5": 11.5,
+    "7.5": 15.5,
+    "11": 22.0,
+    "15": 30.0,
+    "18.5": 37.0,
+    "22": 44.0,
+    "30": 59.0,
+    "37": 72.0,
+    "45": 87.0,
+    "55": 106,
+    "75": 145,
+    "90": 169,
+    "110": 206,
+    "132": 250,
+    "160": 295,
+    "200": 370,
+    "250": 460,
+    "315": 565,
+    "400": 720,
+    "500": 890
+  }
+}
