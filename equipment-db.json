@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "version": "1.01",
+    "version": "1.0",
     "updated": "2026-03",
     "note": "CircuitMaster ekipman veritabanı. Yeni seri veya varyant eklemek için ilgili bloğu düzenleyin.",
     "coilVoltage": "230V AC (sabit)"
@@ -56,7 +56,7 @@
           "code": "GV2ME10",
           "Imin": 4.0,
           "Imax": 6.3,
-          "label": "4.0–6.3 Aa"
+          "label": "4.0–6.3 A"
         },
         {
           "code": "GV2ME14",
