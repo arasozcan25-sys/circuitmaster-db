@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "version": "1.8",
+    "version": "1.9",
     "updated": "2026-03",
     "note": "CircuitMaster ekipman veritabanı. Yeni seri veya varyant eklemek için ilgili bloğu düzenleyin.",
     "coilVoltage": "230V AC (sabit)"
@@ -411,78 +411,20 @@
     },
     "NSXm": {
       "brand": "Schneider Electric",
-      "series": "ComPacT NSXm",
+      "series": "NSXm",
       "type": "mccb",
-      "description": "MCCB 16–160A, kompakt tip",
+      "description": "ComPact NSXm (3P), 36kA (F), Sabit Tip.",
       "loadTypes": [
         "feeder",
         "motor",
         "heater"
       ],
-      "variants": [
-        {
-          "code": "LV426620",
-          "In": 25,
-          "Icu": 25,
-          "poles": 3,
-          "label": "NSXm 25A  3P 25kA"
-        },
-        {
-          "code": "LV426630",
-          "In": 32,
-          "Icu": 25,
-          "poles": 3,
-          "label": "NSXm 32A  3P 25kA"
-        },
-        {
-          "code": "LV426640",
-          "In": 40,
-          "Icu": 25,
-          "poles": 3,
-          "label": "NSXm 40A  3P 25kA"
-        },
-        {
-          "code": "LV426650",
-          "In": 50,
-          "Icu": 25,
-          "poles": 3,
-          "label": "NSXm 50A  3P 25kA"
-        },
-        {
-          "code": "LV426660",
-          "In": 63,
-          "Icu": 25,
-          "poles": 3,
-          "label": "NSXm 63A  3P 25kA"
-        },
-        {
-          "code": "LV426670",
-          "In": 80,
-          "Icu": 25,
-          "poles": 3,
-          "label": "NSXm 80A  3P 25kA"
-        },
-        {
-          "code": "LV426680",
-          "In": 100,
-          "Icu": 25,
-          "poles": 3,
-          "label": "NSXm 100A 3P 25kA"
-        },
-        {
-          "code": "LV426690",
-          "In": 125,
-          "Icu": 25,
-          "poles": 3,
-          "label": "NSXm 125A 3P 25kA"
-        },
-        {
-          "code": "LV426700",
-          "In": 160,
-          "Icu": 25,
-          "poles": 3,
-          "label": "NSXm 160A 3P 25kA"
-        }
+       "variants": [
+      { "code": "C11F3TM063", "In": 63, "Icu": 36, "poles": 3, "label": "NSXm63F 36kA AC 3P" },
+      { "code": "C11F3TM080", "In": 80, "Icu": 36, "poles": 3, "label": "NSXm80F 36kA AC 3P" },
+      { "code": "C11F3TM100", "In": 100, "Icu": 36, "poles": 3, "label": "NSXm100F 36kA AC 3P" },
+      { "code": "C12F3TM125", "In": 125, "Icu": 36, "poles": 3, "label": "NSXm125F 36kA AC 3P" },
+      { "code": "C12F3TM160", "In": 160, "Icu": 36, "poles": 3, "label": "NSXm160F 36kA AC 3P" }
       ]
     },
     "NSX": {
