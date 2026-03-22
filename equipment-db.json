@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "version": "2.2",
+    "version": "2.3",
     "updated": "2026-03",
     "note": "CircuitMaster ekipman veritabanı. Yeni seri veya varyant eklemek için ilgili bloğu düzenleyin.",
     "coilVoltage": "230V AC (sabit)"
@@ -1279,8 +1279,9 @@
     {"code":"31288",    "description":"Önden uzatmalı döner kurma kolu, kısa şaft — INS630B-INS2500",            "category":"Döndürme Kolu", "defaultSelected": false, "qty":1}
   ]
 },
-    "iC60N": {
-  "description": "Acti9 iC60N MCB Aksesuarları — iC60N B/C serisi için ortak",
+
+    "iC60N_B": {
+  "description": "Acti9 iC60N MCB Aksesuarları",
   "items": [
     {"code":"A9A26924", "description":"iOF yardımcı kontağı, 1 C/O — Açık/Kapalı ve hata sinyali (AC/DC)",               "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
     {"code":"A9A26929", "description":"iOF/SD+OF çift kontağı, 2 C/O — Açık/Kapalı + hata sinyali (AC/DC)",              "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
@@ -1291,7 +1292,19 @@
     {"code":"A9A26971", "description":"iMN düşük gerilim bobini, 400V AC — gerilim düşünce şalteri açar",                "category":"Bobin",           "defaultSelected": false, "qty":1}
   ]
 },
-"C120N": {
+    "iC60N_C": {
+  "description": "Acti9 iC60N MCB Aksesuarları",
+  "items": [
+    {"code":"A9A26924", "description":"iOF yardımcı kontağı, 1 C/O — Açık/Kapalı ve hata sinyali (AC/DC)",               "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
+    {"code":"A9A26929", "description":"iOF/SD+OF çift kontağı, 2 C/O — Açık/Kapalı + hata sinyali (AC/DC)",              "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
+    {"code":"A9A26946", "description":"iMX+OF açtırma bobini, 100-415V AC / 110-130V DC — uzaktan açtırma + OF kontağı", "category":"Bobin",           "defaultSelected": false, "qty":1},
+    {"code":"A9A26948", "description":"iMX+OF açtırma bobini, 12-24V AC/DC — düşük gerilim uygulamaları + OF kontağı",  "category":"Bobin",           "defaultSelected": false, "qty":1},
+    {"code":"A9A26963", "description":"iMNs düşük gerilim bobini, 220-240V AC — gerilim düşünce şalteri açar",           "category":"Bobin",           "defaultSelected": false, "qty":1},
+    {"code":"A9A26969", "description":"iMN düşük gerilim bobini, 230V AC — gerilim düşünce şalteri açar",                "category":"Bobin",           "defaultSelected": false, "qty":1},
+    {"code":"A9A26971", "description":"iMN düşük gerilim bobini, 400V AC — gerilim düşünce şalteri açar",                "category":"Bobin",           "defaultSelected": false, "qty":1}
+  ]
+},
+"C120N_C": {
   "description": "Acti9 C120N MCB Aksesuarları",
   "items": [
     {"code":"A9A26924", "description":"iOF yardımcı kontağı, 1 C/O — Açık/Kapalı ve hata sinyali (AC/DC)",               "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
