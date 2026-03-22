@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "version": "2.0",
+    "version": "2.1",
     "updated": "2026-03",
     "note": "CircuitMaster ekipman veritabanı. Yeni seri veya varyant eklemek için ilgili bloğu düzenleyin.",
     "coilVoltage": "230V AC (sabit)"
@@ -1215,281 +1215,70 @@
           "category": "Montaj",
           "defaultSelected": false,
           "qty": 1
-        },
-        {
-          "code": "GV2MC01",
-          "description": "Kapak kilidi (kapı açıkken şalter açılır)",
-          "category": "Kilit",
-          "defaultSelected": false,
-          "qty": 1
         }
       ]
     },
-    "GV3ME": {
-      "description": "GV3 ME Motor Koruma Şalteri Aksesuarları",
+    "GV3 P": {
+      "description": "GV3 P Motor Koruma Şalteri Aksesuarları",
       "items": [
-        {
-          "code": "GV3A11",
-          "description": "Yardımcı kontak bloğu, 1NA+1NK (yan montaj)",
-          "category": "Yardımcı Kontak",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "GV3A20",
-          "description": "Yardımcı kontak bloğu, 2NA (yan montaj)",
-          "category": "Yardımcı Kontak",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "GV3A02",
-          "description": "Yardımcı kontak bloğu, 2NK (yan montaj)",
-          "category": "Yardımcı Kontak",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "GV3A01",
-          "description": "Alarm kontağı, 1NK (arıza/trip sinyali için)",
-          "category": "Alarm Kontağı",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "GV3AE11",
-          "description": "Elektronik sinyal bloğu, 1NA+1NK (24V DC uyumlu)",
-          "category": "Sinyal Bloğu",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "GV3AE20",
-          "description": "Elektronik sinyal bloğu, 2NA (24V DC uyumlu)",
-          "category": "Sinyal Bloğu",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "GV3AE01",
-          "description": "Elektronik sinyal bloğu, 2NK (24V DC uyumlu)",
-          "category": "Sinyal Bloğu",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "GV3G25",
-          "description": "Grup montaj adaptörü",
-          "category": "Montaj",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "GV3A4",
-          "description": "Harici bağlantı terminali seti",
-          "category": "Terminal",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "GV3MC01",
-          "description": "Kapak kilidi (kapı açıkken şalter açılır)",
-          "category": "Kilit",
-          "defaultSelected": false,
-          "qty": 1
-        }
+    {"code":"GVAN11",  "description":"Yardımcı kontak bloğu, 1NA+1NK (yan montaj) — GV2/GV3 ortak", "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
+    {"code":"GVAN20",  "description":"Yardımcı kontak bloğu, 2NA (yan montaj) — GV2/GV3 ortak",     "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
+    {"code":"GVAN02",  "description":"Yardımcı kontak bloğu, 2NK (yan montaj) — GV2/GV3 ortak",     "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
+    {"code":"GVAE11",  "description":"Elektronik sinyal bloğu, 1NA+1NK (24V DC) — GV2/GV3 ortak",  "category":"Sinyal Bloğu",    "defaultSelected": false, "qty":1},
+    {"code":"GVAE20",  "description":"Elektronik sinyal bloğu, 2NA (24V DC) — GV2/GV3 ortak",      "category":"Sinyal Bloğu",    "defaultSelected": false, "qty":1},
+    {"code":"GVAM11",  "description":"Kısa devre sinyal kontağı (trip sinyali için)",               "category":"Alarm Kontağı",   "defaultSelected": false, "qty":1},
+    {"code":"GV3G66",  "description":"Grup montaj bağlantısı — GV3P için",                          "category":"Montaj",          "defaultSelected": false, "qty":1},
+    {"code":"GV3MC01", "description":"Kapak kilidi (kapı açıkken şalter açılır)",                   "category":"Kilit",           "defaultSelected": false, "qty":1}
       ]
     },
     "NSXm": {
       "description": "ComPacT NSXm MCCB Aksesuarları",
       "items": [
-        {
-          "code": "LV426900",
-          "description": "OF yardımcı kontağı, 1NA+1NK (açık/kapalı sinyali)",
-          "category": "Yardımcı Kontak",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "LV426920",
-          "description": "SD arıza kontağı, 1NK (trip sinyali)",
-          "category": "Alarm Kontağı",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "LV426940",
-          "description": "MN düşük gerilim bobini, 220-240V AC",
-          "category": "Bobin",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "LV426950",
-          "description": "MX açma bobini, 220-240V AC",
-          "category": "Bobin",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "LV426960",
-          "description": "Motor mekanizması (uzaktan açma/kapama)",
-          "category": "Motor Mekanizması",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "LV426970",
-          "description": "Döndürme kolu, doğrudan (IP40)",
-          "category": "Döndürme Kolu",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "LV426975",
-          "description": "Uzatmalı döndürme kolu (kapı montajı için)",
-          "category": "Döndürme Kolu",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "LV426980",
-          "description": "Kilit aksesuar seti (asma kilit deliği)",
-          "category": "Kilit",
-          "defaultSelected": false,
-          "qty": 1
-        }
+    {"code":"LV426950",  "description":"OF veya SD kontağı — takıldığı yuvaya göre Açık/Kapalı veya Hata sinyali", "category":"Yardımcı Kontak",  "defaultSelected": false, "qty":1},
+    {"code":"LV426844",  "description":"MX açtırma bobini, 220-240V AC — uzaktan şalteri açtırmak için",            "category":"Bobin",            "defaultSelected": false, "qty":1},
+    {"code":"LV426804",  "description":"MN düşük gerilim bobini — gerilim düşünce şalteri otomatik açtırır",        "category":"Bobin",            "defaultSelected": false, "qty":1},
+    {"code":"LV426932T", "description":"Uzatmalı döndürme kolu — pano kapağından kumanda (mil dahil)",              "category":"Döndürme Kolu",    "defaultSelected": false, "qty":1}
       ]
     },
     "NSX": {
       "description": "ComPacT NSX MCCB Aksesuarları",
       "items": [
-        {
-          "code": "LV429413",
-          "description": "OF yardımcı kontağı, 1NA+1NK (açık/kapalı)",
-          "category": "Yardımcı Kontak",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "LV429416",
-          "description": "SD arıza kontağı, 1NK (trip sinyali)",
-          "category": "Alarm Kontağı",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "LV429418",
-          "description": "SDE harici arıza kontağı",
-          "category": "Alarm Kontağı",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "LV429441",
-          "description": "MN düşük gerilim bobini, 220-240V AC",
-          "category": "Bobin",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "LV429442",
-          "description": "MX açma bobini, 220-240V AC",
-          "category": "Bobin",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "LV429460",
-          "description": "Motor mekanizması, 220-240V AC",
-          "category": "Motor Mekanizması",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "LV429464",
-          "description": "Döndürme kolu, doğrudan RHA065 (IP40)",
-          "category": "Döndürme Kolu",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "LV429465",
-          "description": "Uzatmalı döndürme kolu RHE065 (kapı montajı)",
-          "category": "Döndürme Kolu",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "LV429467",
-          "description": "Döner kol kilit aksesuar seti",
-          "category": "Kilit",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "LV429480",
-          "description": "Terminale bağlantı kapağı (IP40 parmak koruma)",
-          "category": "Kapak",
-          "defaultSelected": false,
-          "qty": 1
-        }
+    {"code":"LV426950",  "description":"OF veya SD kontağı — takıldığı yuvaya göre Açık/Kapalı veya Hata sinyali",         "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
+    {"code":"29450",     "description":"OF / SD / SDE / SDV yardımcı kontak — durum, hata veya toprak hatası bilgisi",      "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
+    {"code":"29452",     "description":"Low Level kontak — PLC veya düşük akımlı elektronik devreler için altın kaplama",   "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
+    {"code":"LV429387",  "description":"MX açtırma bobini, 220-240V AC — uzaktan şalteri açtırmak için",                    "category":"Bobin",           "defaultSelected": false, "qty":1},
+    {"code":"LV429407",  "description":"MN düşük gerilim bobini — gerilim düşünce şalteri otomatik açtırır",                "category":"Bobin",           "defaultSelected": false, "qty":1},
+    {"code":"LV429337T", "description":"Döndürme kolu doğrudan — NSX100-250, yeni nesil ComPacT NSX üzerine montaj",        "category":"Döndürme Kolu",   "defaultSelected": false, "qty":1},
+    {"code":"LV429338T", "description":"Döndürme kolu uzatmalı — NSX100-250, standart pano kapağına uzatma",                "category":"Döndürme Kolu",   "defaultSelected": false, "qty":1},
+    {"code":"LV432597T", "description":"Döndürme kolu doğrudan — NSX400-630, büyük gövde şalterler için",                  "category":"Döndürme Kolu",   "defaultSelected": false, "qty":1},
+    {"code":"LV432598T", "description":"Döndürme kolu uzatmalı — NSX400-630, büyük gövde kapak üzerine kol",               "category":"Döndürme Kolu",   "defaultSelected": false, "qty":1}
       ]
     },
     "NS": {
       "description": "ComPacT NS MCCB Aksesuarları",
       "items": [
-        {
-          "code": "33104",
-          "description": "OF yardımcı kontağı, 1NA+1NK",
-          "category": "Yardımcı Kontak",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "33105",
-          "description": "SD arıza kontağı, 1NK",
-          "category": "Alarm Kontağı",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "33201",
-          "description": "MN düşük gerilim bobini, 220-240V AC",
-          "category": "Bobin",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "33200",
-          "description": "MX açma bobini, 220-240V AC",
-          "category": "Bobin",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "33300",
-          "description": "Motor mekanizması, 220-240V AC",
-          "category": "Motor Mekanizması",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "33400",
-          "description": "Döndürme kolu, doğrudan (IP40)",
-          "category": "Döndürme Kolu",
-          "defaultSelected": false,
-          "qty": 1
-        },
-        {
-          "code": "33401",
-          "description": "Uzatmalı döndürme kolu (kapı montajı)",
-          "category": "Döndürme Kolu",
-          "defaultSelected": false,
-          "qty": 1
-        }
+    {"code":"33108",     "description":"OF veya SD kontağı — takıldığı yuvaya göre Açık/Kapalı veya Hata sinyali",        "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
+    {"code":"LV429454",  "description":"OF / SD / SDE / SDV yardımcı kontak — durum, hata veya toprak hatası bilgisi",   "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
+    {"code":"29450",     "description":"OF / SD / SDE / SDV yardımcı kontak — durum, hata veya toprak hatası bilgisi",   "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
+    {"code":"29452",     "description":"Low Level kontak — PLC veya düşük akımlı elektronik devreler için altın kaplama", "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
+    {"code":"33662",     "description":"MX açtırma bobini, 220-240V AC — uzaktan şalteri açtırmak için",                  "category":"Bobin",           "defaultSelected": false, "qty":1},
+    {"code":"33671",     "description":"MN düşük gerilim bobini — gerilim düşünce şalteri otomatik açtırır",              "category":"Bobin",           "defaultSelected": false, "qty":1},
+    {"code":"33863",     "description":"Döndürme kolu doğrudan — NS630-1600",                                             "category":"Döndürme Kolu",   "defaultSelected": false, "qty":1},
+    {"code":"33878",     "description":"Döndürme kolu uzatmalı — NS630-1600, pano kapağına uzatma",                       "category":"Döndürme Kolu",   "defaultSelected": false, "qty":1}
       ]
     },
+    "INS": {
+  "description": "INS Disconnector Aksesuarları",
+  "items": [
+    {"code":"LV428941", "description":"Önden uzatmalı döner kurma kolu — INS40-INS160",                          "category":"Döndürme Kolu", "defaultSelected": false, "qty":1},
+    {"code":"28943",    "description":"Yandan uzatmalı döner kurma kolu — INS40-INS160",                         "category":"Döndürme Kolu", "defaultSelected": false, "qty":1},
+    {"code":"LV431050", "description":"Önden uzatmalı döner kurma kolu — INS250",                                "category":"Döndürme Kolu", "defaultSelected": false, "qty":1},
+    {"code":"31054",    "description":"Yandan uzatmalı döner kurma koluna dönüştürme aksesuarı — INS250",        "category":"Döndürme Kolu", "defaultSelected": false, "qty":1},
+    {"code":"31057",    "description":"Yandan uzatmalı döner kurma kolu — INS250",                               "category":"Döndürme Kolu", "defaultSelected": false, "qty":1},
+    {"code":"31052",    "description":"Önden uzatmalı döner kurma kolu — INS400-630",                            "category":"Döndürme Kolu", "defaultSelected": false, "qty":1},
+    {"code":"31288",    "description":"Önden uzatmalı döner kurma kolu, kısa şaft — INS630B-INS2500",            "category":"Döndürme Kolu", "defaultSelected": false, "qty":1}
+  ]
+},
     "LC1D": {
       "description": "TeSys D LC1D Kontaktör Aksesuarları",
       "items": [
