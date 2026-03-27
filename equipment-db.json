@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "version": "2.3",
+    "version": "2.4",
     "updated": "2026-03",
     "note": "CircuitMaster ekipman veritabanı. Yeni seri veya varyant eklemek için ilgili bloğu düzenleyin.",
     "coilVoltage": "230V AC (sabit)"
@@ -1218,7 +1218,7 @@
         }
       ]
     },
-    "GV3 P": {
+    "GV3P": {
       "description": "GV3 P Motor Koruma Şalteri Aksesuarları",
       "items": [
     {"code":"GVAN11",  "description":"Yardımcı kontak bloğu, 1NA+1NK (yan montaj) — GV2/GV3 ortak", "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
