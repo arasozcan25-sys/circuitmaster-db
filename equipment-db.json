@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "version": "2.4",
+    "version": "3.0",
     "updated": "2026-03",
     "note": "CircuitMaster ekipman veritabanı. Yeni seri veya varyant eklemek için ilgili bloğu düzenleyin.",
     "coilVoltage": "230V AC (sabit)"
@@ -129,7 +129,7 @@
           "Imin": 62,
           "Imax": 73,
           "label": "62–73 A"
-        }        
+        }
       ]
     }
   },
@@ -425,12 +425,42 @@
         "motor",
         "heater"
       ],
-       "variants": [
-      { "code": "C11F3TM063", "In": 63, "Icu": 36, "poles": 3, "label": "NSXm63F 36kA AC 3P" },
-      { "code": "C11F3TM080", "In": 80, "Icu": 36, "poles": 3, "label": "NSXm80F 36kA AC 3P" },
-      { "code": "C11F3TM100", "In": 100, "Icu": 36, "poles": 3, "label": "NSXm100F 36kA AC 3P" },
-      { "code": "C12F3TM125", "In": 125, "Icu": 36, "poles": 3, "label": "NSXm125F 36kA AC 3P" },
-      { "code": "C12F3TM160", "In": 160, "Icu": 36, "poles": 3, "label": "NSXm160F 36kA AC 3P" }
+      "variants": [
+        {
+          "code": "C11F3TM063",
+          "In": 63,
+          "Icu": 36,
+          "poles": 3,
+          "label": "NSXm63F 36kA AC 3P"
+        },
+        {
+          "code": "C11F3TM080",
+          "In": 80,
+          "Icu": 36,
+          "poles": 3,
+          "label": "NSXm80F 36kA AC 3P"
+        },
+        {
+          "code": "C11F3TM100",
+          "In": 100,
+          "Icu": 36,
+          "poles": 3,
+          "label": "NSXm100F 36kA AC 3P"
+        },
+        {
+          "code": "C12F3TM125",
+          "In": 125,
+          "Icu": 36,
+          "poles": 3,
+          "label": "NSXm125F 36kA AC 3P"
+        },
+        {
+          "code": "C12F3TM160",
+          "In": 160,
+          "Icu": 36,
+          "poles": 3,
+          "label": "NSXm160F 36kA AC 3P"
+        }
       ]
     },
     "NSX": {
@@ -441,14 +471,56 @@
       "loadTypes": [
         "feeder"
       ],
-       "variants": [
-      { "code": "C10F3TM100", "In": 100, "Icu": 36, "poles": 3, "label": "NSX100F 36kA AC 3P" },
-      { "code": "C16F3TM160", "In": 160, "Icu": 36, "poles": 3, "label": "NSX160F 36kA AC 3P" },
-      { "code": "C25F3TM250", "In": 250, "Icu": 36, "poles": 3, "label": "NSX250F 36kA AC 3P" },
-      { "code": "C40F31M320", "In": 320, "Icu": 36, "poles": 3, "label": "NSX400F 36kA AC 3P" },
-      { "code": "C40F32D400", "In": 400, "Icu": 36, "poles": 3, "label": "NSX400F 36kA AC 3P" },
-      { "code": "C63F32M500", "In": 500, "Icu": 36, "poles": 3, "label": "NSX630F 36kA AC 3P" },
-      { "code": "C63F32D630", "In": 630, "Icu": 36, "poles": 3, "label": "NSX630F 36kA AC 3P" }
+      "variants": [
+        {
+          "code": "C10F3TM100",
+          "In": 100,
+          "Icu": 36,
+          "poles": 3,
+          "label": "NSX100F 36kA AC 3P"
+        },
+        {
+          "code": "C16F3TM160",
+          "In": 160,
+          "Icu": 36,
+          "poles": 3,
+          "label": "NSX160F 36kA AC 3P"
+        },
+        {
+          "code": "C25F3TM250",
+          "In": 250,
+          "Icu": 36,
+          "poles": 3,
+          "label": "NSX250F 36kA AC 3P"
+        },
+        {
+          "code": "C40F31M320",
+          "In": 320,
+          "Icu": 36,
+          "poles": 3,
+          "label": "NSX400F 36kA AC 3P"
+        },
+        {
+          "code": "C40F32D400",
+          "In": 400,
+          "Icu": 36,
+          "poles": 3,
+          "label": "NSX400F 36kA AC 3P"
+        },
+        {
+          "code": "C63F32M500",
+          "In": 500,
+          "Icu": 36,
+          "poles": 3,
+          "label": "NSX630F 36kA AC 3P"
+        },
+        {
+          "code": "C63F32D630",
+          "In": 630,
+          "Icu": 36,
+          "poles": 3,
+          "label": "NSX630F 36kA AC 3P"
+        }
       ]
     },
     "NS": {
@@ -460,11 +532,41 @@
         "feeder"
       ],
       "variants": [
-      { "code": "C063N320FM", "In": 630, "Icu": 50, "poles": 3, "label": "NS630bN 50kA AC 3P" },
-      { "code": "C080N320FM", "In": 800, "Icu": 50, "poles": 3, "label": "NS800N 50kA AC 3P" },
-      { "code": "C100N320FM", "In": 1000, "Icu": 50, "poles": 3, "label": "NS1000N 50kA AC 3P" },
-      { "code": "C125N320FM", "In": 1250, "Icu": 50, "poles": 3, "label": "NS1250N 50kA AC 3P" },
-      { "code": "C160N320FM", "In": 1600, "Icu": 50, "poles": 3, "label": "NS1600N 50kA AC 3P" }
+        {
+          "code": "C063N320FM",
+          "In": 630,
+          "Icu": 50,
+          "poles": 3,
+          "label": "NS630bN 50kA AC 3P"
+        },
+        {
+          "code": "C080N320FM",
+          "In": 800,
+          "Icu": 50,
+          "poles": 3,
+          "label": "NS800N 50kA AC 3P"
+        },
+        {
+          "code": "C100N320FM",
+          "In": 1000,
+          "Icu": 50,
+          "poles": 3,
+          "label": "NS1000N 50kA AC 3P"
+        },
+        {
+          "code": "C125N320FM",
+          "In": 1250,
+          "Icu": 50,
+          "poles": 3,
+          "label": "NS1250N 50kA AC 3P"
+        },
+        {
+          "code": "C160N320FM",
+          "In": 1600,
+          "Icu": 50,
+          "poles": 3,
+          "label": "NS1600N 50kA AC 3P"
+        }
       ]
     },
     "INS": {
@@ -478,21 +580,111 @@
         "heater"
       ],
       "variants": [
-      { "code": "28900", "In": 40, "Icu": 15, "poles": 3, "label": "INS40 15kA AC 3P" },
-      { "code": "28902", "In": 63, "Icu": 15, "poles": 3, "label": "INS63 15kA AC 3P" },
-      { "code": "28904", "In": 80, "Icu": 15, "poles": 3, "label": "INS80 15kA AC 3P" },
-      { "code": "28908", "In": 100, "Icu": 20, "poles": 3, "label": "INS100 20kA AC 3P" },
-      { "code": "28910", "In": 125, "Icu": 20, "poles": 3, "label": "INS125 20kA AC 3P" },
-      { "code": "28912", "In": 160, "Icu": 20, "poles": 3, "label": "INS160 20kA AC 3P" },
-      { "code": "31106", "In": 250, "Icu": 30, "poles": 3, "label": "INS250 30kA AC 3P" },
-      { "code": "31110", "In": 400, "Icu": 50, "poles": 3, "label": "INS400 50kA AC 3P" },
-      { "code": "31114", "In": 630, "Icu": 50, "poles": 3, "label": "INS630 50kA AC 3P" },
-      { "code": "31330", "In": 800, "Icu": 75, "poles": 3, "label": "INS800 75kA AC 3P" },
-      { "code": "31332", "In": 1000, "Icu": 75, "poles": 3, "label": "INS1000 75kA AC 3P" },
-      { "code": "31334", "In": 1250, "Icu": 75, "poles": 3, "label": "INS1250 75kA AC 3P" },
-      { "code": "31336", "In": 1600, "Icu": 75, "poles": 3, "label": "INS1600 75kA AC 3P" },
-      { "code": "31338", "In": 2000, "Icu": 105, "poles": 3, "label": "INS2000 105kA AC 3P" },
-      { "code": "31340", "In": 2500, "Icu": 105, "poles": 3, "label": "INS2500 105kA AC 3P" }
+        {
+          "code": "28900",
+          "In": 40,
+          "Icu": 15,
+          "poles": 3,
+          "label": "INS40 15kA AC 3P"
+        },
+        {
+          "code": "28902",
+          "In": 63,
+          "Icu": 15,
+          "poles": 3,
+          "label": "INS63 15kA AC 3P"
+        },
+        {
+          "code": "28904",
+          "In": 80,
+          "Icu": 15,
+          "poles": 3,
+          "label": "INS80 15kA AC 3P"
+        },
+        {
+          "code": "28908",
+          "In": 100,
+          "Icu": 20,
+          "poles": 3,
+          "label": "INS100 20kA AC 3P"
+        },
+        {
+          "code": "28910",
+          "In": 125,
+          "Icu": 20,
+          "poles": 3,
+          "label": "INS125 20kA AC 3P"
+        },
+        {
+          "code": "28912",
+          "In": 160,
+          "Icu": 20,
+          "poles": 3,
+          "label": "INS160 20kA AC 3P"
+        },
+        {
+          "code": "31106",
+          "In": 250,
+          "Icu": 30,
+          "poles": 3,
+          "label": "INS250 30kA AC 3P"
+        },
+        {
+          "code": "31110",
+          "In": 400,
+          "Icu": 50,
+          "poles": 3,
+          "label": "INS400 50kA AC 3P"
+        },
+        {
+          "code": "31114",
+          "In": 630,
+          "Icu": 50,
+          "poles": 3,
+          "label": "INS630 50kA AC 3P"
+        },
+        {
+          "code": "31330",
+          "In": 800,
+          "Icu": 75,
+          "poles": 3,
+          "label": "INS800 75kA AC 3P"
+        },
+        {
+          "code": "31332",
+          "In": 1000,
+          "Icu": 75,
+          "poles": 3,
+          "label": "INS1000 75kA AC 3P"
+        },
+        {
+          "code": "31334",
+          "In": 1250,
+          "Icu": 75,
+          "poles": 3,
+          "label": "INS1250 75kA AC 3P"
+        },
+        {
+          "code": "31336",
+          "In": 1600,
+          "Icu": 75,
+          "poles": 3,
+          "label": "INS1600 75kA AC 3P"
+        },
+        {
+          "code": "31338",
+          "In": 2000,
+          "Icu": 105,
+          "poles": 3,
+          "label": "INS2000 105kA AC 3P"
+        },
+        {
+          "code": "31340",
+          "In": 2500,
+          "Icu": 105,
+          "poles": 3,
+          "label": "INS2500 105kA AC 3P"
+        }
       ]
     }
   },
@@ -767,30 +959,98 @@
     }
   },
   "vfd": {
-
-  "ACS180": {
-    "brand": "ABB",
-    "series": "ABB-ACS180",
-    "type": "vfd",
-    "description": "Genel amaç sürücü, 0.55-22kW / 400V",
-    "variants": [
-      { "code": "ACS180-04x-01A8-4 ", "In": 1.8, "kW_400V": 0.55, "label": "ACS180 0.55kW /1.8A" },
-      { "code": "ACS180-04x-02A6-4", "In": 2.6, "kW_400V": 0.75, "label": "ACS180 0.75kW / 2.6A" },
-      { "code": "ACS180-04x-03A3-4", "In": 3.3, "kW_400V": 1.1, "label": "ACS180 1.1kW / 3.3A" },
-      { "code": "ACS180-04x-04A0-4", "In": 4, "kW_400V": 1.5, "label": "ACS180 1.5kW / 4A" },
-      { "code": "ACS180-04x-05A6-4 ", "In": 5.6, "kW_400V": 2.2, "label": "ACS180 2.2kW / 5.6A" },
-      { "code": "ACS180-04x-07A2-4", "In": 7.2, "kW_400V": 3, "label": "ACS180 3kW / 7.2A" },
-      { "code": "ACS180-04x-09A4-4", "In": 9.4, "kW_400V": 4, "label": "ACS180 4kW / 9.4A" },
-      { "code": "ACS180-04x-12A6-4", "In": 12.6, "kW_400V": 5.5, "label": "ACS180 5.5kW / 12.6A" },
-      { "code": "ACS180-04x-17A0-4", "In": 17, "kW_400V": 7.5, "label": "ACS180 7.5kW / 17A" },
-      { "code": "ACS180-04x-25A0-4", "In": 25, "kW_400V": 11, "label": "ACS180 11kW / 25A" },
-      { "code": "ACS180-04x-033A-4", "In": 32, "kW_400V": 15, "label": "ACS180 15kW / 32A" },
-      { "code": "ACS180-04x-038A-4", "In": 38, "kW_400V": 18.5, "label": "ACS180 18.5kW / 38A" },
-      { "code": "ACS180-04x-045A-4", "In": 45, "kW_400V": 22, "label": "ACS180 22kW / 45A" },
-      { "code": "ACS180-04x-050A-4", "In": 50, "kW_400V": 22, "label": "ACS180 22kW / 50A" }
-    ]
-  },
-    
+    "ACS180": {
+      "brand": "ABB",
+      "series": "ABB-ACS180",
+      "type": "vfd",
+      "description": "Genel amaç sürücü, 0.55-22kW / 400V",
+      "variants": [
+        {
+          "code": "ACS180-04x-01A8-4 ",
+          "In": 1.8,
+          "kW_400V": 0.55,
+          "label": "ACS180 0.55kW /1.8A"
+        },
+        {
+          "code": "ACS180-04x-02A6-4",
+          "In": 2.6,
+          "kW_400V": 0.75,
+          "label": "ACS180 0.75kW / 2.6A"
+        },
+        {
+          "code": "ACS180-04x-03A3-4",
+          "In": 3.3,
+          "kW_400V": 1.1,
+          "label": "ACS180 1.1kW / 3.3A"
+        },
+        {
+          "code": "ACS180-04x-04A0-4",
+          "In": 4,
+          "kW_400V": 1.5,
+          "label": "ACS180 1.5kW / 4A"
+        },
+        {
+          "code": "ACS180-04x-05A6-4 ",
+          "In": 5.6,
+          "kW_400V": 2.2,
+          "label": "ACS180 2.2kW / 5.6A"
+        },
+        {
+          "code": "ACS180-04x-07A2-4",
+          "In": 7.2,
+          "kW_400V": 3,
+          "label": "ACS180 3kW / 7.2A"
+        },
+        {
+          "code": "ACS180-04x-09A4-4",
+          "In": 9.4,
+          "kW_400V": 4,
+          "label": "ACS180 4kW / 9.4A"
+        },
+        {
+          "code": "ACS180-04x-12A6-4",
+          "In": 12.6,
+          "kW_400V": 5.5,
+          "label": "ACS180 5.5kW / 12.6A"
+        },
+        {
+          "code": "ACS180-04x-17A0-4",
+          "In": 17,
+          "kW_400V": 7.5,
+          "label": "ACS180 7.5kW / 17A"
+        },
+        {
+          "code": "ACS180-04x-25A0-4",
+          "In": 25,
+          "kW_400V": 11,
+          "label": "ACS180 11kW / 25A"
+        },
+        {
+          "code": "ACS180-04x-033A-4",
+          "In": 32,
+          "kW_400V": 15,
+          "label": "ACS180 15kW / 32A"
+        },
+        {
+          "code": "ACS180-04x-038A-4",
+          "In": 38,
+          "kW_400V": 18.5,
+          "label": "ACS180 18.5kW / 38A"
+        },
+        {
+          "code": "ACS180-04x-045A-4",
+          "In": 45,
+          "kW_400V": 22,
+          "label": "ACS180 22kW / 45A"
+        },
+        {
+          "code": "ACS180-04x-050A-4",
+          "In": 50,
+          "kW_400V": 22,
+          "label": "ACS180 22kW / 50A"
+        }
+      ]
+    },
     "ACS380": {
       "brand": "ABB",
       "series": "ABB-ACS380",
@@ -1151,170 +1411,646 @@
           "description": "Yardımcı kontak bloğu, 1NA+1NK (yan montaj)",
           "category": "Yardımcı Kontak",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "Auxiliary contact block, 1NO+1NC (side mounting)"
         },
         {
           "code": "GV2AN20",
           "description": "Yardımcı kontak bloğu, 2NA (yan montaj)",
           "category": "Yardımcı Kontak",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "Auxiliary contact block, 2NO (side mounting)"
         },
         {
           "code": "GV2AN02",
           "description": "Yardımcı kontak bloğu, 2NK (yan montaj)",
           "category": "Yardımcı Kontak",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "Yardımcı kontak bloğu, 2NK (yan montaj)"
         },
         {
           "code": "GV2APN11",
           "description": "Yardımcı kontak + alarm, 1NA+1NK+1NK (üst montaj)",
           "category": "Yardımcı Kontak",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "Yardımcı kontak + alarm, 1NA+1NK+1NK (üst montaj)"
         },
         {
           "code": "GV2AN01",
           "description": "Alarm kontağı, 1NK (arıza/trip sinyali için)",
           "category": "Alarm Kontağı",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Alarm Contact",
+          "description_en": "Auxiliary contact block, 1NC (side mounting)"
         },
         {
           "code": "GV2AE11",
           "description": "Elektronik sinyal bloğu, 1NA+1NK (24V DC uyumlu)",
           "category": "Sinyal Bloğu",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Signal Block",
+          "description_en": "Elektronik sinyal bloğu, 1NA+1NK (24V DC uyumlu)"
         },
         {
           "code": "GV2AE20",
           "description": "Elektronik sinyal bloğu, 2NA (24V DC uyumlu)",
           "category": "Sinyal Bloğu",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Signal Block",
+          "description_en": "Elektronik sinyal bloğu, 2NA (24V DC uyumlu)"
         },
         {
           "code": "GV2AE01",
           "description": "Elektronik sinyal bloğu, 2NK (24V DC uyumlu)",
           "category": "Sinyal Bloğu",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Signal Block",
+          "description_en": "Elektronik sinyal bloğu, 2NK (24V DC uyumlu)"
         },
         {
           "code": "GV2AF4",
           "description": "Bağlantı adaptörü — LC1D kontaktöre doğrudan montaj",
           "category": "Montaj",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Mounting",
+          "description_en": "Bağlantı adaptörü — LC1D kontaktöre doğrudan montaj"
         },
         {
           "code": "GV2G05",
           "description": "Grup montaj adaptörü (3 GV2 yan yana)",
           "category": "Montaj",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Mounting",
+          "description_en": "Grup montaj adaptörü (3 GV2 yan yana)"
         }
-      ]
+      ],
+      "description_en": "GV2 ME Motor Circuit Breaker Accessories"
     },
     "GV3P": {
       "description": "GV3 P Motor Koruma Şalteri Aksesuarları",
       "items": [
-    {"code":"GVAN11",  "description":"Yardımcı kontak bloğu, 1NA+1NK (yan montaj) — GV2/GV3 ortak", "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
-    {"code":"GVAN20",  "description":"Yardımcı kontak bloğu, 2NA (yan montaj) — GV2/GV3 ortak",     "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
-    {"code":"GVAN02",  "description":"Yardımcı kontak bloğu, 2NK (yan montaj) — GV2/GV3 ortak",     "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
-    {"code":"GVAE11",  "description":"Elektronik sinyal bloğu, 1NA+1NK (24V DC) — GV2/GV3 ortak",  "category":"Sinyal Bloğu",    "defaultSelected": false, "qty":1},
-    {"code":"GVAE20",  "description":"Elektronik sinyal bloğu, 2NA (24V DC) — GV2/GV3 ortak",      "category":"Sinyal Bloğu",    "defaultSelected": false, "qty":1},
-    {"code":"GVAM11",  "description":"Kısa devre sinyal kontağı (trip sinyali için)",               "category":"Alarm Kontağı",   "defaultSelected": false, "qty":1},
-    {"code":"GV3G66",  "description":"Grup montaj bağlantısı — GV3P için",                          "category":"Montaj",          "defaultSelected": false, "qty":1},
-    {"code":"GV3MC01", "description":"Kapak kilidi (kapı açıkken şalter açılır)",                   "category":"Kilit",           "defaultSelected": false, "qty":1}
-      ]
+        {
+          "code": "GVAN11",
+          "description": "Yardımcı kontak bloğu, 1NA+1NK (yan montaj) — GV2/GV3 ortak",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "Auxiliary contact block, 1NO+1NC (side mounting) — GV2/GV3 common"
+        },
+        {
+          "code": "GVAN20",
+          "description": "Yardımcı kontak bloğu, 2NA (yan montaj) — GV2/GV3 ortak",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "Auxiliary contact block, 2NO (side mounting) — GV2/GV3 common"
+        },
+        {
+          "code": "GVAN02",
+          "description": "Yardımcı kontak bloğu, 2NK (yan montaj) — GV2/GV3 ortak",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "Yardımcı kontak bloğu, 2NK (yan montaj) — GV2/GV3 ortak"
+        },
+        {
+          "code": "GVAE11",
+          "description": "Elektronik sinyal bloğu, 1NA+1NK (24V DC) — GV2/GV3 ortak",
+          "category": "Sinyal Bloğu",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Signal Block",
+          "description_en": "Signal block 1NO+1NC — trip fault indication"
+        },
+        {
+          "code": "GVAE20",
+          "description": "Elektronik sinyal bloğu, 2NA (24V DC) — GV2/GV3 ortak",
+          "category": "Sinyal Bloğu",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Signal Block",
+          "description_en": "Elektronik sinyal bloğu, 2NA (24V DC) — GV2/GV3 ortak"
+        },
+        {
+          "code": "GVAM11",
+          "description": "Kısa devre sinyal kontağı (trip sinyali için)",
+          "category": "Alarm Kontağı",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Alarm Contact",
+          "description_en": "Kısa devre sinyal kontağı (trip sinyali için)"
+        },
+        {
+          "code": "GV3G66",
+          "description": "Grup montaj bağlantısı — GV3P için",
+          "category": "Montaj",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Mounting",
+          "description_en": "Grup montaj bağlantısı — GV3P için"
+        },
+        {
+          "code": "GV3MC01",
+          "description": "Kapak kilidi (kapı açıkken şalter açılır)",
+          "category": "Kilit",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Lock",
+          "description_en": "Kapak kilidi (kapı açıkken şalter açılır)"
+        }
+      ],
+      "description_en": "GV3 P Motor Circuit Breaker Accessories"
     },
     "NSXm": {
       "description": "ComPacT NSXm MCCB Aksesuarları",
       "items": [
-    {"code":"LV426950",  "description":"OF veya SD kontağı — takıldığı yuvaya göre Açık/Kapalı veya Hata sinyali", "category":"Yardımcı Kontak",  "defaultSelected": false, "qty":1},
-    {"code":"LV426844",  "description":"MX açtırma bobini, 220-240V AC — uzaktan şalteri açtırmak için",            "category":"Bobin",            "defaultSelected": false, "qty":1},
-    {"code":"LV426804",  "description":"MN düşük gerilim bobini — gerilim düşünce şalteri otomatik açtırır",        "category":"Bobin",            "defaultSelected": false, "qty":1},
-    {"code":"LV426932T", "description":"Uzatmalı döndürme kolu — pano kapağından kumanda (mil dahil)",              "category":"Döndürme Kolu",    "defaultSelected": false, "qty":1}
-      ]
+        {
+          "code": "LV426950",
+          "description": "OF veya SD kontağı — takıldığı yuvaya göre Açık/Kapalı veya Hata sinyali",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "OF or SD contact — Open/Closed or Fault signal depending on slot"
+        },
+        {
+          "code": "LV426844",
+          "description": "MX açtırma bobini, 220-240V AC — uzaktan şalteri açtırmak için",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "MX shunt release coil, 220-240V AC — remote tripping"
+        },
+        {
+          "code": "LV426804",
+          "description": "MN düşük gerilim bobini — gerilim düşünce şalteri otomatik açtırır",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "MN düşük gerilim bobini — gerilim düşünce şalteri otomatik açtırır"
+        },
+        {
+          "code": "LV426932T",
+          "description": "Uzatmalı döndürme kolu — pano kapağından kumanda (mil dahil)",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Rotary Handle",
+          "description_en": "Uzatmalı döndürme kolu — pano kapağından kumanda (mil dahil)"
+        }
+      ],
+      "description_en": "ComPacT NSXm MCCB Accessories"
     },
     "NSX": {
       "description": "ComPacT NSX MCCB Aksesuarları",
       "items": [
-    {"code":"LV426950",  "description":"OF veya SD kontağı — takıldığı yuvaya göre Açık/Kapalı veya Hata sinyali",         "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
-    {"code":"29450",     "description":"OF / SD / SDE / SDV yardımcı kontak — durum, hata veya toprak hatası bilgisi",      "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
-    {"code":"29452",     "description":"Low Level kontak — PLC veya düşük akımlı elektronik devreler için altın kaplama",   "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
-    {"code":"LV429387",  "description":"MX açtırma bobini, 220-240V AC — uzaktan şalteri açtırmak için",                    "category":"Bobin",           "defaultSelected": false, "qty":1},
-    {"code":"LV429407",  "description":"MN düşük gerilim bobini — gerilim düşünce şalteri otomatik açtırır",                "category":"Bobin",           "defaultSelected": false, "qty":1},
-    {"code":"LV429337T", "description":"Döndürme kolu doğrudan — NSX100-250, yeni nesil ComPacT NSX üzerine montaj",        "category":"Döndürme Kolu",   "defaultSelected": false, "qty":1},
-    {"code":"LV429338T", "description":"Döndürme kolu uzatmalı — NSX100-250, standart pano kapağına uzatma",                "category":"Döndürme Kolu",   "defaultSelected": false, "qty":1},
-    {"code":"LV432597T", "description":"Döndürme kolu doğrudan — NSX400-630, büyük gövde şalterler için",                  "category":"Döndürme Kolu",   "defaultSelected": false, "qty":1},
-    {"code":"LV432598T", "description":"Döndürme kolu uzatmalı — NSX400-630, büyük gövde kapak üzerine kol",               "category":"Döndürme Kolu",   "defaultSelected": false, "qty":1}
-      ]
+        {
+          "code": "LV426950",
+          "description": "OF veya SD kontağı — takıldığı yuvaya göre Açık/Kapalı veya Hata sinyali",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "OF or SD contact — Open/Closed or Fault signal depending on slot"
+        },
+        {
+          "code": "29450",
+          "description": "OF / SD / SDE / SDV yardımcı kontak — durum, hata veya toprak hatası bilgisi",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "OF / SD / SDE / SDV auxiliary contact — status, fault or earth fault signal"
+        },
+        {
+          "code": "29452",
+          "description": "Low Level kontak — PLC veya düşük akımlı elektronik devreler için altın kaplama",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "Low Level kontak — PLC veya düşük akımlı elektronik devreler için altın kaplama"
+        },
+        {
+          "code": "LV429387",
+          "description": "MX açtırma bobini, 220-240V AC — uzaktan şalteri açtırmak için",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "MX açtırma bobini, 220-240V AC — uzaktan şalteri açtırmak için"
+        },
+        {
+          "code": "LV429407",
+          "description": "MN düşük gerilim bobini — gerilim düşünce şalteri otomatik açtırır",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "MN düşük gerilim bobini — gerilim düşünce şalteri otomatik açtırır"
+        },
+        {
+          "code": "LV429337T",
+          "description": "Döndürme kolu doğrudan — NSX100-250, yeni nesil ComPacT NSX üzerine montaj",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Rotary Handle",
+          "description_en": "Döndürme kolu doğrudan — NSX100-250, yeni nesil ComPacT NSX üzerine montaj"
+        },
+        {
+          "code": "LV429338T",
+          "description": "Döndürme kolu uzatmalı — NSX100-250, standart pano kapağına uzatma",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Rotary Handle",
+          "description_en": "Döndürme kolu uzatmalı — NSX100-250, standart pano kapağına uzatma"
+        },
+        {
+          "code": "LV432597T",
+          "description": "Döndürme kolu doğrudan — NSX400-630, büyük gövde şalterler için",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Rotary Handle",
+          "description_en": "Döndürme kolu doğrudan — NSX400-630, büyük gövde şalterler için"
+        },
+        {
+          "code": "LV432598T",
+          "description": "Döndürme kolu uzatmalı — NSX400-630, büyük gövde kapak üzerine kol",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Rotary Handle",
+          "description_en": "Döndürme kolu uzatmalı — NSX400-630, büyük gövde kapak üzerine kol"
+        }
+      ],
+      "description_en": "ComPacT NSX MCCB Accessories"
     },
     "NS": {
       "description": "ComPacT NS MCCB Aksesuarları",
       "items": [
-    {"code":"33108",     "description":"OF veya SD kontağı — takıldığı yuvaya göre Açık/Kapalı veya Hata sinyali",        "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
-    {"code":"LV429454",  "description":"OF / SD / SDE / SDV yardımcı kontak — durum, hata veya toprak hatası bilgisi",   "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
-    {"code":"29450",     "description":"OF / SD / SDE / SDV yardımcı kontak — durum, hata veya toprak hatası bilgisi",   "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
-    {"code":"29452",     "description":"Low Level kontak — PLC veya düşük akımlı elektronik devreler için altın kaplama", "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
-    {"code":"33662",     "description":"MX açtırma bobini, 220-240V AC — uzaktan şalteri açtırmak için",                  "category":"Bobin",           "defaultSelected": false, "qty":1},
-    {"code":"33671",     "description":"MN düşük gerilim bobini — gerilim düşünce şalteri otomatik açtırır",              "category":"Bobin",           "defaultSelected": false, "qty":1},
-    {"code":"33863",     "description":"Döndürme kolu doğrudan — NS630-1600",                                             "category":"Döndürme Kolu",   "defaultSelected": false, "qty":1},
-    {"code":"33878",     "description":"Döndürme kolu uzatmalı — NS630-1600, pano kapağına uzatma",                       "category":"Döndürme Kolu",   "defaultSelected": false, "qty":1}
-      ]
+        {
+          "code": "33108",
+          "description": "OF veya SD kontağı — takıldığı yuvaya göre Açık/Kapalı veya Hata sinyali",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "OF or SD contact — Open/Closed or Fault signal depending on slot"
+        },
+        {
+          "code": "LV429454",
+          "description": "OF / SD / SDE / SDV yardımcı kontak — durum, hata veya toprak hatası bilgisi",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "OF / SD / SDE / SDV auxiliary contact — status, fault or earth fault signal"
+        },
+        {
+          "code": "29450",
+          "description": "OF / SD / SDE / SDV yardımcı kontak — durum, hata veya toprak hatası bilgisi",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "OF / SD / SDE / SDV auxiliary contact — status, fault or earth fault signal"
+        },
+        {
+          "code": "29452",
+          "description": "Low Level kontak — PLC veya düşük akımlı elektronik devreler için altın kaplama",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "Low Level kontak — PLC veya düşük akımlı elektronik devreler için altın kaplama"
+        },
+        {
+          "code": "33662",
+          "description": "MX açtırma bobini, 220-240V AC — uzaktan şalteri açtırmak için",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "MX açtırma bobini, 220-240V AC — uzaktan şalteri açtırmak için"
+        },
+        {
+          "code": "33671",
+          "description": "MN düşük gerilim bobini — gerilim düşünce şalteri otomatik açtırır",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "MN düşük gerilim bobini — gerilim düşünce şalteri otomatik açtırır"
+        },
+        {
+          "code": "33863",
+          "description": "Döndürme kolu doğrudan — NS630-1600",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Rotary Handle",
+          "description_en": "Döndürme kolu doğrudan — NS630-1600"
+        },
+        {
+          "code": "33878",
+          "description": "Döndürme kolu uzatmalı — NS630-1600, pano kapağına uzatma",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Rotary Handle",
+          "description_en": "Döndürme kolu uzatmalı — NS630-1600, pano kapağına uzatma"
+        }
+      ],
+      "description_en": "ComPacT NS MCCB Accessories"
     },
     "INS": {
-  "description": "INS Disconnector Aksesuarları",
-  "items": [
-    {"code":"LV428941", "description":"Önden uzatmalı döner kurma kolu — INS40-INS160",                          "category":"Döndürme Kolu", "defaultSelected": false, "qty":1},
-    {"code":"28943",    "description":"Yandan uzatmalı döner kurma kolu — INS40-INS160",                         "category":"Döndürme Kolu", "defaultSelected": false, "qty":1},
-    {"code":"LV431050", "description":"Önden uzatmalı döner kurma kolu — INS250",                                "category":"Döndürme Kolu", "defaultSelected": false, "qty":1},
-    {"code":"31054",    "description":"Yandan uzatmalı döner kurma koluna dönüştürme aksesuarı — INS250",        "category":"Döndürme Kolu", "defaultSelected": false, "qty":1},
-    {"code":"31057",    "description":"Yandan uzatmalı döner kurma kolu — INS250",                               "category":"Döndürme Kolu", "defaultSelected": false, "qty":1},
-    {"code":"31052",    "description":"Önden uzatmalı döner kurma kolu — INS400-630",                            "category":"Döndürme Kolu", "defaultSelected": false, "qty":1},
-    {"code":"31288",    "description":"Önden uzatmalı döner kurma kolu, kısa şaft — INS630B-INS2500",            "category":"Döndürme Kolu", "defaultSelected": false, "qty":1}
-  ]
-},
-
+      "description": "INS Disconnector Aksesuarları",
+      "items": [
+        {
+          "code": "LV428941",
+          "description": "Önden uzatmalı döner kurma kolu — INS40-INS160",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Rotary Handle",
+          "description_en": "Front extended rotary handle — INS40-INS160"
+        },
+        {
+          "code": "28943",
+          "description": "Yandan uzatmalı döner kurma kolu — INS40-INS160",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Rotary Handle",
+          "description_en": "Side extended rotary handle — INS40-INS160"
+        },
+        {
+          "code": "LV431050",
+          "description": "Önden uzatmalı döner kurma kolu — INS250",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Rotary Handle",
+          "description_en": "Önden uzatmalı döner kurma kolu — INS250"
+        },
+        {
+          "code": "31054",
+          "description": "Yandan uzatmalı döner kurma koluna dönüştürme aksesuarı — INS250",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Rotary Handle",
+          "description_en": "Yandan uzatmalı döner kurma koluna dönüştürme aksesuarı — INS250"
+        },
+        {
+          "code": "31057",
+          "description": "Yandan uzatmalı döner kurma kolu — INS250",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Rotary Handle",
+          "description_en": "Yandan uzatmalı döner kurma kolu — INS250"
+        },
+        {
+          "code": "31052",
+          "description": "Önden uzatmalı döner kurma kolu — INS400-630",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Rotary Handle",
+          "description_en": "Önden uzatmalı döner kurma kolu — INS400-630"
+        },
+        {
+          "code": "31288",
+          "description": "Önden uzatmalı döner kurma kolu, kısa şaft — INS630B-INS2500",
+          "category": "Döndürme Kolu",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Rotary Handle",
+          "description_en": "Önden uzatmalı döner kurma kolu, kısa şaft — INS630B-INS2500"
+        }
+      ],
+      "description_en": "INS Disconnector Accessories"
+    },
     "iC60N_B": {
-  "description": "Acti9 iC60N MCB Aksesuarları",
-  "items": [
-    {"code":"A9A26924", "description":"iOF yardımcı kontağı, 1 C/O — Açık/Kapalı ve hata sinyali (AC/DC)",               "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
-    {"code":"A9A26929", "description":"iOF/SD+OF çift kontağı, 2 C/O — Açık/Kapalı + hata sinyali (AC/DC)",              "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
-    {"code":"A9A26946", "description":"iMX+OF açtırma bobini, 100-415V AC / 110-130V DC — uzaktan açtırma + OF kontağı", "category":"Bobin",           "defaultSelected": false, "qty":1},
-    {"code":"A9A26948", "description":"iMX+OF açtırma bobini, 12-24V AC/DC — düşük gerilim uygulamaları + OF kontağı",  "category":"Bobin",           "defaultSelected": false, "qty":1},
-    {"code":"A9A26963", "description":"iMNs düşük gerilim bobini, 220-240V AC — gerilim düşünce şalteri açar",           "category":"Bobin",           "defaultSelected": false, "qty":1},
-    {"code":"A9A26969", "description":"iMN düşük gerilim bobini, 230V AC — gerilim düşünce şalteri açar",                "category":"Bobin",           "defaultSelected": false, "qty":1},
-    {"code":"A9A26971", "description":"iMN düşük gerilim bobini, 400V AC — gerilim düşünce şalteri açar",                "category":"Bobin",           "defaultSelected": false, "qty":1}
-  ]
-},
+      "description": "Acti9 iC60N MCB Aksesuarları",
+      "items": [
+        {
+          "code": "A9A26924",
+          "description": "iOF yardımcı kontağı, 1 C/O — Açık/Kapalı ve hata sinyali (AC/DC)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "iOF auxiliary contact, 1 C/O — Open/Closed and fault signal (AC/DC)"
+        },
+        {
+          "code": "A9A26929",
+          "description": "iOF/SD+OF çift kontağı, 2 C/O — Açık/Kapalı + hata sinyali (AC/DC)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "iOF/SD+OF dual contact, 2 C/O — Open/Closed + fault signal (AC/DC)"
+        },
+        {
+          "code": "A9A26946",
+          "description": "iMX+OF açtırma bobini, 100-415V AC / 110-130V DC — uzaktan açtırma + OF kontağı",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "iMX+OF açtırma bobini, 100-415V AC / 110-130V DC — uzaktan açtırma + OF kontağı"
+        },
+        {
+          "code": "A9A26948",
+          "description": "iMX+OF açtırma bobini, 12-24V AC/DC — düşük gerilim uygulamaları + OF kontağı",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "iMX+OF açtırma bobini, 12-24V AC/DC — düşük gerilim uygulamaları + OF kontağı"
+        },
+        {
+          "code": "A9A26963",
+          "description": "iMNs düşük gerilim bobini, 220-240V AC — gerilim düşünce şalteri açar",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "iMNs düşük gerilim bobini, 220-240V AC — gerilim düşünce şalteri açar"
+        },
+        {
+          "code": "A9A26969",
+          "description": "iMN düşük gerilim bobini, 230V AC — gerilim düşünce şalteri açar",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "iMN düşük gerilim bobini, 230V AC — gerilim düşünce şalteri açar"
+        },
+        {
+          "code": "A9A26971",
+          "description": "iMN düşük gerilim bobini, 400V AC — gerilim düşünce şalteri açar",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "iMN düşük gerilim bobini, 400V AC — gerilim düşünce şalteri açar"
+        }
+      ],
+      "description_en": "Acti9 iC60N MCB Accessories"
+    },
     "iC60N_C": {
-  "description": "Acti9 iC60N MCB Aksesuarları",
-  "items": [
-    {"code":"A9A26924", "description":"iOF yardımcı kontağı, 1 C/O — Açık/Kapalı ve hata sinyali (AC/DC)",               "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
-    {"code":"A9A26929", "description":"iOF/SD+OF çift kontağı, 2 C/O — Açık/Kapalı + hata sinyali (AC/DC)",              "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
-    {"code":"A9A26946", "description":"iMX+OF açtırma bobini, 100-415V AC / 110-130V DC — uzaktan açtırma + OF kontağı", "category":"Bobin",           "defaultSelected": false, "qty":1},
-    {"code":"A9A26948", "description":"iMX+OF açtırma bobini, 12-24V AC/DC — düşük gerilim uygulamaları + OF kontağı",  "category":"Bobin",           "defaultSelected": false, "qty":1},
-    {"code":"A9A26963", "description":"iMNs düşük gerilim bobini, 220-240V AC — gerilim düşünce şalteri açar",           "category":"Bobin",           "defaultSelected": false, "qty":1},
-    {"code":"A9A26969", "description":"iMN düşük gerilim bobini, 230V AC — gerilim düşünce şalteri açar",                "category":"Bobin",           "defaultSelected": false, "qty":1},
-    {"code":"A9A26971", "description":"iMN düşük gerilim bobini, 400V AC — gerilim düşünce şalteri açar",                "category":"Bobin",           "defaultSelected": false, "qty":1}
-  ]
-},
-"C120N_C": {
-  "description": "Acti9 C120N MCB Aksesuarları",
-  "items": [
-    {"code":"A9A26924", "description":"iOF yardımcı kontağı, 1 C/O — Açık/Kapalı ve hata sinyali (AC/DC)",               "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
-    {"code":"A9A26929", "description":"iOF/SD+OF çift kontağı, 2 C/O — Açık/Kapalı + hata sinyali (AC/DC)",              "category":"Yardımcı Kontak", "defaultSelected": false, "qty":1},
-    {"code":"A9A26946", "description":"iMX+OF açtırma bobini, 100-415V AC / 110-130V DC — uzaktan açtırma + OF kontağı", "category":"Bobin",           "defaultSelected": false, "qty":1},
-    {"code":"A9A26963", "description":"iMNs düşük gerilim bobini, 220-240V AC — gerilim düşünce şalteri açar",           "category":"Bobin",           "defaultSelected": false, "qty":1},
-    {"code":"A9A26969", "description":"iMN düşük gerilim bobini, 230V AC — gerilim düşünce şalteri açar",                "category":"Bobin",           "defaultSelected": false, "qty":1},
-    {"code":"A9A26971", "description":"iMN düşük gerilim bobini, 400V AC — gerilim düşünce şalteri açar",                "category":"Bobin",           "defaultSelected": false, "qty":1}
-  ]
-},
+      "description": "Acti9 iC60N MCB Aksesuarları",
+      "items": [
+        {
+          "code": "A9A26924",
+          "description": "iOF yardımcı kontağı, 1 C/O — Açık/Kapalı ve hata sinyali (AC/DC)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "iOF auxiliary contact, 1 C/O — Open/Closed and fault signal (AC/DC)"
+        },
+        {
+          "code": "A9A26929",
+          "description": "iOF/SD+OF çift kontağı, 2 C/O — Açık/Kapalı + hata sinyali (AC/DC)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "iOF/SD+OF dual contact, 2 C/O — Open/Closed + fault signal (AC/DC)"
+        },
+        {
+          "code": "A9A26946",
+          "description": "iMX+OF açtırma bobini, 100-415V AC / 110-130V DC — uzaktan açtırma + OF kontağı",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "iMX+OF açtırma bobini, 100-415V AC / 110-130V DC — uzaktan açtırma + OF kontağı"
+        },
+        {
+          "code": "A9A26948",
+          "description": "iMX+OF açtırma bobini, 12-24V AC/DC — düşük gerilim uygulamaları + OF kontağı",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "iMX+OF açtırma bobini, 12-24V AC/DC — düşük gerilim uygulamaları + OF kontağı"
+        },
+        {
+          "code": "A9A26963",
+          "description": "iMNs düşük gerilim bobini, 220-240V AC — gerilim düşünce şalteri açar",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "iMNs düşük gerilim bobini, 220-240V AC — gerilim düşünce şalteri açar"
+        },
+        {
+          "code": "A9A26969",
+          "description": "iMN düşük gerilim bobini, 230V AC — gerilim düşünce şalteri açar",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "iMN düşük gerilim bobini, 230V AC — gerilim düşünce şalteri açar"
+        },
+        {
+          "code": "A9A26971",
+          "description": "iMN düşük gerilim bobini, 400V AC — gerilim düşünce şalteri açar",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "iMN düşük gerilim bobini, 400V AC — gerilim düşünce şalteri açar"
+        }
+      ],
+      "description_en": "Acti9 iC60N MCB Accessories"
+    },
+    "C120N_C": {
+      "description": "Acti9 C120N MCB Aksesuarları",
+      "items": [
+        {
+          "code": "A9A26924",
+          "description": "iOF yardımcı kontağı, 1 C/O — Açık/Kapalı ve hata sinyali (AC/DC)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "iOF auxiliary contact, 1 C/O — Open/Closed and fault signal (AC/DC)"
+        },
+        {
+          "code": "A9A26929",
+          "description": "iOF/SD+OF çift kontağı, 2 C/O — Açık/Kapalı + hata sinyali (AC/DC)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "iOF/SD+OF dual contact, 2 C/O — Open/Closed + fault signal (AC/DC)"
+        },
+        {
+          "code": "A9A26946",
+          "description": "iMX+OF açtırma bobini, 100-415V AC / 110-130V DC — uzaktan açtırma + OF kontağı",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "iMX+OF açtırma bobini, 100-415V AC / 110-130V DC — uzaktan açtırma + OF kontağı"
+        },
+        {
+          "code": "A9A26963",
+          "description": "iMNs düşük gerilim bobini, 220-240V AC — gerilim düşünce şalteri açar",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "iMNs düşük gerilim bobini, 220-240V AC — gerilim düşünce şalteri açar"
+        },
+        {
+          "code": "A9A26969",
+          "description": "iMN düşük gerilim bobini, 230V AC — gerilim düşünce şalteri açar",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "iMN düşük gerilim bobini, 230V AC — gerilim düşünce şalteri açar"
+        },
+        {
+          "code": "A9A26971",
+          "description": "iMN düşük gerilim bobini, 400V AC — gerilim düşünce şalteri açar",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "iMN düşük gerilim bobini, 400V AC — gerilim düşünce şalteri açar"
+        }
+      ],
+      "description_en": "Acti9 C120N MCB Accessories"
+    },
     "LC1D": {
       "description": "TeSys D LC1D Kontaktör Aksesuarları",
       "items": [
@@ -1323,72 +2059,93 @@
           "description": "Yardımcı kontak bloğu, 1NA+1NK (yan montaj, D09-D38)",
           "category": "Yardımcı Kontak",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "Auxiliary contact block, 1NO+1NC (side mounting, D09-D38)"
         },
         {
           "code": "LAD8N20",
           "description": "Yardımcı kontak bloğu, 2NA (yan montaj)",
           "category": "Yardımcı Kontak",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "Auxiliary contact block, 2NO (side mounting)"
         },
         {
           "code": "LAD8N02",
           "description": "Yardımcı kontak bloğu, 2NK (yan montaj)",
           "category": "Yardımcı Kontak",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "Yardımcı kontak bloğu, 2NK (yan montaj)"
         },
         {
           "code": "LADN11",
           "description": "Yardımcı kontak bloğu, 1NA+1NK (ön montaj, D09-D65)",
           "category": "Yardımcı Kontak",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "Auxiliary contact block, 1NO+1NC — front mounting"
         },
         {
           "code": "LAD6K10",
           "description": "Mekanik kilit (2 kontaktör birbirini kilitler)",
           "category": "Kilit",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Lock",
+          "description_en": "Mekanik kilit (2 kontaktör birbirini kilitler)"
         },
         {
           "code": "LAD6K11",
           "description": "Elektrik+mekanik kilit (Y/Δ için)",
           "category": "Kilit",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Lock",
+          "description_en": "Elektrik+mekanik kilit (Y/Δ için)"
         },
         {
           "code": "LX9FG100",
           "description": "Değiştirilebilir bobin, 100V AC",
           "category": "Bobin",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "Değiştirilebilir bobin, 100V AC"
         },
         {
           "code": "LX9FG110",
           "description": "Değiştirilebilir bobin, 110V AC",
           "category": "Bobin",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "Değiştirilebilir bobin, 110V AC"
         },
         {
           "code": "LAD8FU",
           "description": "Gerilim göstergeli bobin kapağı (LED)",
           "category": "Aksesuar",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Accessory",
+          "description_en": "Gerilim göstergeli bobin kapağı (LED)"
         },
         {
           "code": "LADN40",
           "description": "Zaman rölesi adaptörü (yıldırım gecikmesi)",
           "category": "Aksesuar",
           "defaultSelected": false,
-          "qty": 1
+          "qty": 1,
+          "category_en": "Accessory",
+          "description_en": "Zaman rölesi adaptörü (yıldırım gecikmesi)"
         }
-      ]
+      ],
+      "description_en": "TeSys D LC1D Contactor Accessories"
     }
   }
 }
