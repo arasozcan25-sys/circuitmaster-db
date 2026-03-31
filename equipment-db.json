@@ -1407,7 +1407,7 @@
       "description": "GV2 ME Motor Koruma Şalteri Aksesuarları",
       "items": [
         {
-          "code": "GVAN11",
+          "code": "GV2AN11",
           "description": "Yardımcı kontak bloğu, 1NA+1NK (yan montaj)",
           "category": "Yardımcı Kontak",
           "defaultSelected": false,
@@ -1416,7 +1416,7 @@
           "description_en": "Auxiliary contact block, 1NO+1NC (side mounting)"
         },
         {
-          "code": "GVAN20",
+          "code": "GV2AN20",
           "description": "Yardımcı kontak bloğu, 2NA (yan montaj)",
           "category": "Yardımcı Kontak",
           "defaultSelected": false,
@@ -1425,7 +1425,34 @@
           "description_en": "Auxiliary contact block, 2NO (side mounting)"
         },
         {
-          "code": "GVAE11",
+          "code": "GV2AN02",
+          "description": "Yardımcı kontak bloğu, 2NK (yan montaj)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "Auxiliary contact block, 2NC (side mounting)"
+        },
+        {
+          "code": "GV2APN11",
+          "description": "Yardımcı kontak + alarm, 1NA+1NK+1NK (üst montaj)",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "Auxiliary contact + alarm block, 1NO+1NC+1NC (top mounting)"
+        },
+        {
+          "code": "GV2AN01",
+          "description": "Alarm kontağı, 1NK (arıza/trip sinyali için)",
+          "category": "Alarm Kontağı",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Alarm Contact",
+          "description_en": "Auxiliary contact block, 1NC (side mounting)"
+        },
+        {
+          "code": "GV2AE11",
           "description": "Elektronik sinyal bloğu, 1NA+1NK (24V DC uyumlu)",
           "category": "Sinyal Bloğu",
           "defaultSelected": false,
@@ -1434,13 +1461,22 @@
           "description_en": "Electronic signal block, 1NO+1NC (24V DC compatible)"
         },
         {
-          "code": "GVAE20",
+          "code": "GV2AE20",
           "description": "Elektronik sinyal bloğu, 2NA (24V DC uyumlu)",
           "category": "Sinyal Bloğu",
           "defaultSelected": false,
           "qty": 1,
           "category_en": "Signal Block",
           "description_en": "Electronic signal block, 2NO (24V DC compatible)"
+        },
+        {
+          "code": "GV2AE01",
+          "description": "Elektronik sinyal bloğu, 2NK (24V DC uyumlu)",
+          "category": "Sinyal Bloğu",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Signal Block",
+          "description_en": "Electronic signal block, 2NC (24V DC compatible)"
         },
         {
           "code": "GV2AF4",
@@ -1451,6 +1487,15 @@
           "category_en": "Mounting",
           "description_en": "Connection adapter — direct mounting to LC1D contactor"
         },
+        {
+          "code": "GV2G05",
+          "description": "Grup montaj adaptörü (3 GV2 yan yana)",
+          "category": "Montaj",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Mounting",
+          "description_en": "Group mounting adapter (3 GV2 side by side)"
+        }
       ],
       "description_en": "GV2 ME Motor Circuit Breaker Accessories"
     },
@@ -1474,6 +1519,15 @@
           "qty": 1,
           "category_en": "Auxiliary Contact",
           "description_en": "Auxiliary contact block, 2NO (side mounting) — GV2/GV3 common"
+        },
+        {
+          "code": "GVAN02",
+          "description": "Yardımcı kontak bloğu, 2NK (yan montaj) — GV2/GV3 ortak",
+          "category": "Yardımcı Kontak",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Auxiliary Contact",
+          "description_en": "Auxiliary contact block, 2NC (side mounting) — GV2/GV3 common"
         },
         {
           "code": "GVAE11",
@@ -1502,7 +1556,25 @@
           "category_en": "Alarm Contact",
           "description_en": "Short circuit signal contact (trip signal)"
         },
-         ],
+        {
+          "code": "GV3G66",
+          "description": "Grup montaj bağlantısı — GV3P için",
+          "category": "Montaj",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Mounting",
+          "description_en": "Group mounting connection — for GV3P"
+        },
+        {
+          "code": "GV3MC01",
+          "description": "Kapak kilidi (kapı açıkken şalter açılır)",
+          "category": "Kilit",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Lock",
+          "description_en": "Cover lock (breaker opens when door is open)"
+        }
+      ],
       "description_en": "GV3 P Motor Circuit Breaker Accessories"
     },
     "NSXm": {
@@ -2035,6 +2107,33 @@
           "qty": 1,
           "category_en": "Lock",
           "description_en": "Electrical + mechanical interlock (for Star-Delta)"
+        },
+        {
+          "code": "LX9FG100",
+          "description": "Değiştirilebilir bobin, 100V AC",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "Replaceable coil, 100V AC"
+        },
+        {
+          "code": "LX9FG110",
+          "description": "Değiştirilebilir bobin, 110V AC",
+          "category": "Bobin",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Coil",
+          "description_en": "Replaceable coil, 110V AC"
+        },
+        {
+          "code": "LAD8FU",
+          "description": "Gerilim göstergeli bobin kapağı (LED)",
+          "category": "Aksesuar",
+          "defaultSelected": false,
+          "qty": 1,
+          "category_en": "Accessory",
+          "description_en": "Coil cover with voltage indicator (LED)"
         },
         {
           "code": "LADN40",
